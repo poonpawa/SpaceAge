@@ -9,10 +9,24 @@
     <actor id="id700840" />
     <actor id="id784889" />
     <actor id="id206770" />
+    <actor id="id347394" />
+    <actor id="id610722" />
+    <actor id="id775256" />
+    <actor id="id821356" />
+    <actor id="id406905" />
+    <actor id="id792069" />
+    <actor id="id652729" />
+    <actor id="id716315" />
+    <actor id="id533637" />
+    <actor id="id924573" />
+    <actor id="id556517" />
+    <actor id="id286506" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id304657" />
     <scene id="id871022" />
+    <scene id="id147545" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -22,7 +36,7 @@
       <real id="width">667</real>
       <real id="height">375</real>
     </size>
-    <text id="actorTags" />
+    <text id="actorTags">All	Enemies	Platforms</text>
     <boolean id="platformConnected">false</boolean>
     <enumeration id="playerType">1</enumeration>
     <playermap id="player1 Keymap">
@@ -175,5 +189,16 @@
     </adreward>
     <table id="id305091" name="PurchaseTable">PurchaseTable</table>
     <real id="id812023" name="Direction">200</real>
+    <real id="id495270" name="PlayerBottom">0</real>
+    <real id="id169275" name="EnemyTop">0</real>
+    <real id="id779108" name="Player  X position">0.0</real>
+    <real id="id998767" name="EnemyTopXStart">0.0</real>
+    <real id="id880311" name="EnemyTopXEnd">0.0</real>
+    <real id="id299839" name="Master Position X">0.0</real>
+    <real id="id591961" name="Master Position Y">0.0</real>
+    <boolean id="id693125" name="EnemyKilled">false</boolean>
+    <boolean id="id143088" name="GameOver">false</boolean>
+    <integer id="id410366" name="Nut_count">0</integer>
+    <integer id="id391305" name="PowerUp_count">0</integer>
   </attributes>
 </game>

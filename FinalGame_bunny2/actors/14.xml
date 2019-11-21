@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id206770" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id556517" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">Direction_Change_Actor</text>
+    <text id="name">PowerUp</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">10</real>
-      <real id="height">30</real>
+      <real id="width">40</real>
+      <real id="height">60</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">0</real>
       <real id="green">1</real>
-      <real id="blue">0</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
@@ -23,14 +23,14 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id757045" class="RuleBehavior" enabled="false">
+    <behavior id="id457308" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id391098" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+        <condition id="id134586" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -43,27 +43,25 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id271400" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id812023</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">&lt;</text>
-              <real id="RHS">0</real>
-            </attributes>
-          </predicate>
-        </condition>
       </conditions>
       <behaviors>
-        <behavior id="id884194" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id151589" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+        <behavior id="id450163" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id812023</text>
-            <text id="RHS">200</text>
+            <text id="targetAttribute">game.attributes.id391305</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="game.attributes.id391305" />
+                <string xml:space="preserve"> + 1</string>
+              </expression>
+            </text>
           </attributes>
         </behavior>
       </behaviors>
@@ -101,15 +99,15 @@
     <physics>
       <attributes>
         <real id="density">1</real>
-        <real id="friction">0</real>
-        <real id="restitution">0</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">false</boolean>
+        <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
         <boolean id="canSleep">true</boolean>
-        <boolean id="betterColisions">true</boolean>
+        <boolean id="betterColisions">false</boolean>
       </attributes>
     </physics>
   </aspects>

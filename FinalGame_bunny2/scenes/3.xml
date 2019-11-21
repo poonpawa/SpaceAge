@@ -1,31 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id304657">
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id147545">
   <layers>
-    <layer id="id325719">
+    <layer id="id883800">
       <actors>
-        <actor id="id363642" prototype="id775256">
+        <actor id="id330371" prototype="id792069">
           <attributes>
             <point id="position">
-              <real id="x">335</real>
-              <real id="y">248</real>
+              <real id="x">230</real>
+              <real id="y">240</real>
             </point>
             <size id="size">
-              <real id="width">150</real>
-              <real id="height">50</real>
+              <real id="width">30</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects />
         </actor>
-        <actor id="id969791" prototype="id821356">
+        <actor id="id617235" prototype="id652729">
           <attributes>
             <point id="position">
-              <real id="x">331</real>
-              <real id="y">134</real>
+              <real id="x">229</real>
+              <real id="y">185</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
-              <real id="height">50</real>
+              <real id="width">30</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id114057" prototype="id716315">
+          <attributes>
+            <point id="position">
+              <real id="x">324</real>
+              <real id="y">240</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id773667" prototype="id533637">
+          <attributes>
+            <point id="position">
+              <real id="x">325</real>
+              <real id="y">183</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -39,7 +67,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Death Screen</text>
+    <text id="name">Level Up Screen</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">667</real>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id206770" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id821356" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">Direction_Change_Actor</text>
+    <text id="name">Play Again Btn</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">10</real>
-      <real id="height">30</real>
+      <real id="width">100</real>
+      <real id="height">50</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0</real>
+      <real id="red">1</real>
       <real id="green">1</real>
-      <real id="blue">0</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
@@ -23,47 +23,61 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id757045" class="RuleBehavior" enabled="false">
+    <behavior id="id994357" class="DisplayTextBehavior" enabled="true">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">Display Text</text>
+        <text id="bundleName">DisplayText.behavior</text>
+        <text id="text">Play Again!</text>
+        <text id="font">Cambay</text>
+        <real id="size">15</real>
+        <index id="alignment">1</index>
+        <boolean id="wrap">true</boolean>
+        <color id="color">
+          <real id="red">0</real>
+          <real id="green">0</real>
+          <real id="blue">0</real>
+          <real id="alpha">1</real>
+        </color>
+        <real id="offsetx">0</real>
+        <real id="offsety">0</real>
+        <index id="space">0</index>
+        <index id="directionSpace">0</index>
+        <angle id="direction">0</angle>
+      </attributes>
+    </behavior>
+    <behavior id="id811311" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Play Again</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id391098" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+        <condition id="id467619" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
           </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id784889</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
-        <condition id="id271400" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id812023</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">&lt;</text>
-              <real id="RHS">0</real>
-            </attributes>
+          <predicate type="mouse" mouseState="down">
+            <attributes />
           </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id884194" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id501106" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id871022</text>
+            <index id="enableAdvertisement">0</index>
+            <index id="index">1</index>
+          </attributes>
+        </behavior>
+        <behavior id="id958510" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id812023</text>
-            <text id="RHS">200</text>
+            <text id="targetAttribute">game.attributes.id143088</text>
+            <text id="RHS">false</text>
           </attributes>
         </behavior>
       </behaviors>
@@ -101,15 +115,15 @@
     <physics>
       <attributes>
         <real id="density">1</real>
-        <real id="friction">0</real>
-        <real id="restitution">0</real>
+        <real id="friction">3</real>
+        <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">false</boolean>
+        <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
         <boolean id="canSleep">true</boolean>
-        <boolean id="betterColisions">true</boolean>
+        <boolean id="betterColisions">false</boolean>
       </attributes>
     </physics>
   </aspects>

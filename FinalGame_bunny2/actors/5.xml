@@ -1,36 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id206770" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id610722" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">Direction_Change_Actor</text>
+    <text id="name">DummyEnemyKillPlatform</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">10</real>
-      <real id="height">30</real>
+      <real id="width">40</real>
+      <real id="height">15</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0</real>
-      <real id="green">1</real>
-      <real id="blue">0</real>
+      <real id="red">1</real>
+      <real id="green">0</real>
+      <real id="blue">0.501960784313725</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
-    <text id="tags" />
+    <text id="tags">Enemies</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id757045" class="RuleBehavior" enabled="false">
+    <behavior id="id208677" class="ConstrainAttributeBehavior" enabled="true">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">Set X</text>
+        <text id="bundleName">ConstrainAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.position.x</text>
+        <text id="RHS">
+          <expression>
+            <reference keypath="game.attributes.id299839" />
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+    <behavior id="id760421" class="ConstrainAttributeBehavior" enabled="true">
+      <attributes>
+        <text id="name">Set Y</text>
+        <text id="bundleName">ConstrainAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.position.y</text>
+        <text id="RHS">
+          <expression>
+            <reference keypath="game.attributes.id591961" />
+            <string xml:space="preserve"> + 5</string>
+          </expression>
+        </text>
+      </attributes>
+    </behavior>
+    <behavior id="id627643" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Kill Enemy</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id391098" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+        <condition id="id233135" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
@@ -43,27 +68,25 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id271400" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id812023</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">&lt;</text>
-              <real id="RHS">0</real>
-            </attributes>
-          </predicate>
-        </condition>
       </conditions>
       <behaviors>
-        <behavior id="id884194" class="ChangeAttributeAction" enabled="true">
+        <behavior id="id712043" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id812023</text>
-            <text id="RHS">200</text>
+            <text id="targetAttribute">game.attributes.id693125</text>
+            <text id="RHS">true</text>
+          </attributes>
+        </behavior>
+        <behavior id="id914214" class="LogDebuggingStatementAction" enabled="true">
+          <attributes>
+            <text id="name">Log Debugging Statement</text>
+            <text id="bundleName">LogDebuggingStatement.behavior</text>
+            <text id="text">
+              <expression>
+                <reference keypath="game.attributes.id693125" />
+              </expression>
+            </text>
           </attributes>
         </behavior>
       </behaviors>
@@ -100,16 +123,16 @@
     </motion>
     <physics>
       <attributes>
-        <real id="density">1</real>
+        <real id="density">0</real>
         <real id="friction">0</real>
         <real id="restitution">0</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">false</boolean>
+        <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
         <boolean id="canSleep">true</boolean>
-        <boolean id="betterColisions">true</boolean>
+        <boolean id="betterColisions">false</boolean>
       </attributes>
     </physics>
   </aspects>
