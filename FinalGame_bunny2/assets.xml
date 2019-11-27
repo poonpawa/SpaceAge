@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.6227">
   <sounds />
-  <images />
+  <images>
+    <image name="acorn">
+      <file name="acorn.png" size="39679" />
+    </image>
+    <image name="Space_Pill_Collectable">
+      <file name="Space_Pill_Collectable.png" size="6436" />
+    </image>
+    <image name="Mr.-Squirrel">
+      <file name="Mr.-Squirrel.png" size="47883" />
+    </image>
+    <image name="Enemy_2.1@3x">
+      <file name="Enemy_2.1@3x.png" size="13826" />
+    </image>
+    <image name="Enemy_2.2@3x">
+      <file name="Enemy_2.2@3x.png" size="18420" />
+    </image>
+    <image name="Enemy_2.3@3x">
+      <file name="Enemy_2.3@3x.png" size="20361" />
+    </image>
+    <image name="Enemy_1.2_small@3x">
+      <file name="Enemy_1.2_small@3x.png" size="9856" />
+    </image>
+    <image name="Enemy_1.1_small">
+      <file name="Enemy_1.1_small.png" size="18990" />
+    </image>
+    <image name="Flat-Platform">
+      <file name="Flat-Platform.png" size="18442" />
+    </image>
+    <image name="Flat-Platform-1">
+      <file name="Flat-Platform-1.png" size="21149" />
+    </image>
+    <image name="Platform1">
+      <file name="Platform1.png" size="18619" />
+    </image>
+    <image name="Platform6">
+      <file name="Platform6.png" size="11879" />
+    </image>
+    <image name="Platform7">
+      <file name="Platform7.png" size="4604" />
+    </image>
+    <image name="Platform8">
+      <file name="Platform8.png" size="4088" />
+    </image>
+    <image name="Platform9">
+      <file name="Platform9.png" size="7510" />
+    </image>
+    <image name="Platform2">
+      <file name="Platform2.png" size="6884" />
+    </image>
+    <image name="Platform3">
+      <file name="Platform3.png" size="12235" />
+    </image>
+    <image name="Platform4">
+      <file name="Platform4.png" size="11574" />
+    </image>
+    <image name="Background">
+      <file name="Background.png" size="222127" />
+    </image>
+    <image name="background">
+      <file name="background.png" size="222127" />
+    </image>
+    <image name="flat-platform2">
+      <file name="flat-platform2.png" size="3311" />
+    </image>
+    <image name="flat-platform">
+      <file name="flat-platform.png" size="18442" />
+    </image>
+    <image name="mountain1">
+      <file name="mountain1.png" size="37510" />
+    </image>
+    <image name="mountain2">
+      <file name="mountain2.png" size="6599" />
+    </image>
+    <image name="mountain3">
+      <file name="mountain3.png" size="7842" />
+    </image>
+  </images>
   <fonts />
   <behaviors />
 </assets>

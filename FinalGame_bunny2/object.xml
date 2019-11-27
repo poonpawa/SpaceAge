@@ -21,9 +21,13 @@
     <actor id="id924573" />
     <actor id="id556517" />
     <actor id="id286506" />
+    <actor id="id442949" />
+    <actor id="id809381" />
+    <actor id="id871661" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id310962" />
     <scene id="id304657" />
     <scene id="id871022" />
     <scene id="id147545" />
@@ -191,11 +195,11 @@
     <real id="id812023" name="Direction">200</real>
     <real id="id495270" name="PlayerBottom">0</real>
     <real id="id169275" name="EnemyTop">0</real>
-    <real id="id779108" name="Player  X position">0.0</real>
-    <real id="id998767" name="EnemyTopXStart">0.0</real>
-    <real id="id880311" name="EnemyTopXEnd">0.0</real>
-    <real id="id299839" name="Master Position X">0.0</real>
-    <real id="id591961" name="Master Position Y">0.0</real>
+    <real id="id779108" name="Player  X position">0</real>
+    <real id="id998767" name="EnemyTopXStart">0</real>
+    <real id="id880311" name="EnemyTopXEnd">0</real>
+    <real id="id299839" name="Master Position X">0</real>
+    <real id="id591961" name="Master Position Y">0</real>
     <boolean id="id693125" name="EnemyKilled">false</boolean>
     <boolean id="id143088" name="GameOver">false</boolean>
     <integer id="id410366" name="Nut_count">0</integer>

@@ -8,17 +8,17 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">30</real>
-      <real id="height">30</real>
+      <real id="width">496</real>
+      <real id="height">582</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
       <real id="green">1</real>
-      <real id="blue">0</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">acorn</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -78,6 +78,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">496</integer>
+        <integer id="tileHeight" name="tileHeight">582</integer>
       </attributes>
     </graphics>
     <motion>

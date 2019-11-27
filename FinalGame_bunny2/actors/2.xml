@@ -8,14 +8,14 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">408</real>
+      <real id="height">358</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0.501960784313725</real>
-      <real id="green">0</real>
-      <real id="blue">0.501960784313725</real>
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
@@ -94,16 +94,13 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id336243" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+        <condition id="id332065" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
           </attributes>
-          <predicate type="key">
-            <attributes>
-              <text id="mode">down</text>
-              <text id="keyString">space</text>
-            </attributes>
+          <predicate type="mouse" mouseState="down">
+            <attributes />
           </predicate>
         </condition>
       </conditions>
@@ -486,6 +483,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">408</integer>
+        <integer id="tileHeight" name="tileHeight">358</integer>
       </attributes>
     </graphics>
     <motion>

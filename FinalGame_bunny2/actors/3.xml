@@ -68,6 +68,14 @@
         </behavior>
       </behaviors>
     </behavior>
+    <behavior id="id316651" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.color.alpha</text>
+        <text id="RHS">0</text>
+      </attributes>
+    </behavior>
   </behaviors>
   <aspects>
     <graphics>
