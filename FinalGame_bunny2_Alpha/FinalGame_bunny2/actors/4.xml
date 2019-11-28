@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">132</real>
-      <real id="height">108</real>
+      <real id="width">80</real>
+      <real id="height">100</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -21,6 +21,9 @@
     <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
+    <integer id="id951793" name="Speed">200</integer>
+    <real id="id564755" name="StartX">0</real>
+    <real id="id783988" name="EndX">0</real>
   </attributes>
   <behaviors>
     <behavior id="id184057" class="RuleBehavior" enabled="true">
@@ -56,17 +59,6 @@
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">game.attributes.id693125</text>
             <text id="RHS">false</text>
-          </attributes>
-        </behavior>
-        <behavior id="id289606" class="LogDebuggingStatementAction" enabled="true">
-          <attributes>
-            <text id="name">Log Debugging Statement</text>
-            <text id="bundleName">LogDebuggingStatement.behavior</text>
-            <text id="text">
-              <expression>
-                <reference keypath="game.attributes.id693125" />
-              </expression>
-            </text>
           </attributes>
         </behavior>
       </behaviors>
@@ -129,7 +121,7 @@
         <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
         <text id="RHS">
           <expression>
-            <reference keypath="self.attributes.id556104" />
+            <reference keypath="self.attributes.id951793" />
           </expression>
         </text>
       </attributes>
@@ -152,7 +144,7 @@
               <text id="operator">&gt;</text>
               <real id="RHS">
                 <expression>
-                  <reference keypath="self.attributes.id407387" />
+                  <reference keypath="self.attributes.id783988" />
                 </expression>
               </real>
             </attributes>
@@ -169,7 +161,7 @@
               <text id="operator">&lt;</text>
               <real id="RHS">
                 <expression>
-                  <reference keypath="self.attributes.id470286" />
+                  <reference keypath="self.attributes.id564755" />
                 </expression>
               </real>
             </attributes>
@@ -193,7 +185,7 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id218868" class="AnimateBehavior" enabled="true">
+    <behavior id="id218868" class="AnimateBehavior" enabled="false">
       <attributes>
         <text id="name">Animate</text>
         <text id="bundleName">Animate.behavior</text>

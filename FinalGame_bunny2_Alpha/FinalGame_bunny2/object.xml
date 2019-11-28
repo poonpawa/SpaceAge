@@ -32,6 +32,7 @@
     <actor id="id490347" />
     <actor id="id527184" />
     <actor id="id673609" />
+    <actor id="id330371" />
   </prototypes>
   <plugins />
   <scenes>
@@ -209,7 +210,7 @@
     <real id="id880311" name="EnemyTopXEnd">0</real>
     <real id="id299839" name="Master Position X">0</real>
     <real id="id591961" name="Master Position Y">0</real>
-    <boolean id="id693125" name="EnemyKilled">true</boolean>
+    <boolean id="id693125" name="EnemyKilled">false</boolean>
     <boolean id="id143088" name="GameOver">false</boolean>
     <integer id="id410366" name="Nut_count">0</integer>
     <integer id="id391305" name="PowerUp_count">0</integer>

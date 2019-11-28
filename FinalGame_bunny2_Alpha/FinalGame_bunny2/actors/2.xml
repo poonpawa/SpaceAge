@@ -139,7 +139,7 @@
                 <attributes>
                   <text id="prototypeKey">id206770</text>
                   <text id="actorTag">Direction_change_platforms</text>
-                  <real id="mode">0</real>
+                  <real id="mode">1</real>
                 </attributes>
               </predicate>
             </condition>
@@ -194,7 +194,7 @@
                 <attributes>
                   <text id="prototypeKey">id206770</text>
                   <text id="actorTag">Direction_change_platforms</text>
-                  <real id="mode">0</real>
+                  <real id="mode">1</real>
                 </attributes>
               </predicate>
             </condition>
@@ -494,9 +494,9 @@
         </text>
       </attributes>
     </behavior>
-    <behavior id="id994832" class="RuleBehavior" enabled="true">
+    <behavior id="id994832" class="RuleBehavior" enabled="false">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">Wall Jump</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
@@ -511,6 +511,28 @@
               <text id="prototypeKey">id673609</text>
               <text id="actorTag" />
               <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+        <condition id="id336085" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="mouse" mouseState="down">
+            <attributes />
+          </predicate>
+        </condition>
+        <condition id="id290904" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">0</real>
             </attributes>
           </predicate>
         </condition>
@@ -538,41 +560,15 @@
               </real>
             </point>
             <index id="space">1</index>
-            <real id="speed">100</real>
+            <real id="speed">200</real>
           </attributes>
         </behavior>
-        <behavior id="id777888" class="TimerBehavior" enabled="true">
+        <behavior id="id243799" class="ChangeAttributeAction" enabled="true">
           <attributes>
-            <text id="name">Timer</text>
-            <text id="bundleName">Timer.behavior</text>
-            <index id="timerType">1</index>
-            <real id="interval">0.1</real>
-            <boolean id="runToCompletion">false</boolean>
-          </attributes>
-          <behaviors>
-            <behavior id="id337680" class="ChangeAttributeAction" enabled="true">
-              <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">game.attributes.id439503</text>
-                <text id="RHS">
-                  <expression>
-                    <string xml:space="preserve">-(</string>
-                    <reference keypath="game.attributes.id439503" />
-                    <string xml:space="preserve">)</string>
-                  </expression>
-                </text>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
-        <behavior id="id510757" class="AccelerateBehavior" enabled="true">
-          <attributes>
-            <text id="name">Accelerate</text>
-            <text id="bundleName">Accelerate.behavior</text>
-            <angle id="direction">135</angle>
-            <index id="space">0</index>
-            <real id="acceleration">500</real>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
+            <text id="RHS">200</text>
           </attributes>
         </behavior>
       </behaviors>
