@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id310962">
+  <layers>
+    <layer id="id671356">
+      <actors>
+        <actor id="id480937" prototype="id821356">
+          <attributes>
+            <point id="position">
+              <real id="x">327</real>
+              <real id="y">226</real>
+            </point>
+            <size id="size">
+              <real id="width">100</real>
+              <real id="height">50</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id723411" class="DisplayTextBehavior" enabled="true">
+              <attributes>
+                <text id="name">Display Text</text>
+                <text id="bundleName">DisplayText.behavior</text>
+                <text id="text">Play !</text>
+                <text id="font">Cambay</text>
+                <real id="size">15</real>
+                <index id="alignment">1</index>
+                <boolean id="wrap">true</boolean>
+                <color id="color">
+                  <real id="red">0</real>
+                  <real id="green">0</real>
+                  <real id="blue">0</real>
+                  <real id="alpha">1</real>
+                </color>
+                <real id="offsetx">0</real>
+                <real id="offsety">0</real>
+                <index id="space">0</index>
+                <index id="directionSpace">0</index>
+                <angle id="direction">0</angle>
+              </attributes>
+            </behavior>
+            <behavior id="id623443" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Play Again</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id321026" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mouse" mouseState="down">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id169190" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id871022</text>
+                    <index id="enableAdvertisement">0</index>
+                    <index id="index">1</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id584932" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id143088</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Start Screen</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">667</real>
+      <real id="height">375</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">667</real>
+        <real id="height">375</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">587</real>
+        <real id="height">315</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>

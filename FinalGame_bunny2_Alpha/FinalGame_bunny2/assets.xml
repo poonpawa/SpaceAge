@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.25" GSCVersion="1.25.6227">
+  <sounds>
+    <music name="Bluemillenium_-_Oreilles_froides(Kalte_Ohren)_remix_Blue">
+      <file name="Bluemillenium_-_Oreilles_froides(Kalte_Ohren)_remix_Blue.mp3" size="6940675" />
+    </music>
+  </sounds>
+  <images>
+    <image name="acorn">
+      <file name="acorn.png" size="39679" />
+    </image>
+    <image name="Space_Pill_Collectable">
+      <file name="Space_Pill_Collectable.png" size="6436" />
+    </image>
+    <image name="Mr.-Squirrel">
+      <file name="Mr.-Squirrel.png" size="47883" />
+    </image>
+    <image name="Enemy_1.2_small@3x">
+      <file name="Enemy_1.2_small@3x.png" size="9856" />
+    </image>
+    <image name="Enemy_1.1_small">
+      <file name="Enemy_1.1_small.png" size="18990" />
+    </image>
+    <image name="Flat-Platform">
+      <file name="Flat-Platform.png" size="18442" />
+    </image>
+    <image name="Platform1">
+      <file name="Platform1.png" size="18619" />
+    </image>
+    <image name="Platform6">
+      <file name="Platform6.png" size="11879" />
+    </image>
+    <image name="Platform7">
+      <file name="Platform7.png" size="4604" />
+    </image>
+    <image name="Platform8">
+      <file name="Platform8.png" size="4088" />
+    </image>
+    <image name="Platform9">
+      <file name="Platform9.png" size="7510" />
+    </image>
+    <image name="Platform2">
+      <file name="Platform2.png" size="6884" />
+    </image>
+    <image name="Platform3">
+      <file name="Platform3.png" size="12235" />
+    </image>
+    <image name="Platform4">
+      <file name="Platform4.png" size="11574" />
+    </image>
+    <image name="Background">
+      <file name="Background.png" size="222127" />
+    </image>
+    <image name="background">
+      <file name="background.png" size="222127" />
+    </image>
+    <image name="flat-platform2">
+      <file name="flat-platform2.png" size="3311" />
+    </image>
+    <image name="flat-platform">
+      <file name="flat-platform.png" size="18442" />
+    </image>
+    <image name="mountain1">
+      <file name="mountain1.png" size="37510" />
+    </image>
+    <image name="mountain2">
+      <file name="mountain2.png" size="6599" />
+    </image>
+    <image name="mountain3">
+      <file name="mountain3.png" size="7842" />
+    </image>
+    <image name="1">
+      <file name="1.png" size="10268" />
+    </image>
+    <image name="Space_Age_-_replay">
+      <file name="Space_Age_-_replay.png" size="14855" />
+    </image>
+    <image name="obstacle_-_rock@3x_copy">
+      <file name="obstacle_-_rock@3x_copy.png" size="176266" />
+    </image>
+    <image name="Space_Age_game_over_screen">
+      <file name="Space_Age_game_over_screen.png" size="202636" />
+    </image>
+    <image name="Space_Age_game">
+      <file name="Space_Age_game.png" size="202636" />
+    </image>
+    <image name="Space_Age_-_play">
+      <file name="Space_Age_-_play.png" size="11489" />
+    </image>
+    <image name="Space_Age_start_screen">
+      <file name="Space_Age_start_screen.png" size="208984" />
+    </image>
+    <image name="01">
+      <file name="01.png" size="16913" />
+    </image>
+    <image name="02">
+      <file name="02.png" size="33424" />
+    </image>
+    <image name="03">
+      <file name="03.png" size="50187" />
+    </image>
+    <image name="04">
+      <file name="04.png" size="18688" />
+    </image>
+    <image name="05">
+      <file name="05.png" size="36354" />
+    </image>
+    <image name="06">
+      <file name="06.png" size="53584" />
+    </image>
+    <image name="Level_2_Platform_1">
+      <file name="Level_2_Platform_1.png" size="42667" />
+    </image>
+    <image name="Level_2_Platform_2">
+      <file name="Level_2_Platform_2.png" size="28903" />
+    </image>
+    <image name="Level_2_Platform_3">
+      <file name="Level_2_Platform_3.png" size="83924" />
+    </image>
+    <image name="Level_2_Platform_4">
+      <file name="Level_2_Platform_4.png" size="16284" />
+    </image>
+    <image name="Level_2_Platform_5">
+      <file name="Level_2_Platform_5.png" size="10767" />
+    </image>
+    <image name="Level_2_Platform_6">
+      <file name="Level_2_Platform_6.png" size="15053" />
+    </image>
+    <image name="Level_2_Platform_7">
+      <file name="Level_2_Platform_7.png" size="18507" />
+    </image>
+    <image name="Level_2_Platform_8">
+      <file name="Level_2_Platform_8.png" size="21421" />
+    </image>
+    <image name="Level_2_Platform_9">
+      <file name="Level_2_Platform_9.png" size="11792" />
+    </image>
+    <image name="Level_2_Platform_10">
+      <file name="Level_2_Platform_10.png" size="18072" />
+    </image>
+    <image name="Level_2_Platform_11">
+      <file name="Level_2_Platform_11.png" size="30508" />
+    </image>
+    <image name="Level_2_Platform_12">
+      <file name="Level_2_Platform_12.png" size="4009" />
+    </image>
+    <image name="Level_2_Platform_13">
+      <file name="Level_2_Platform_13.png" size="12276" />
+    </image>
+    <image name="Level_2_Platform_14">
+      <file name="Level_2_Platform_14.png" size="22717" />
+    </image>
+    <image name="Level_2_Platform_15">
+      <file name="Level_2_Platform_15.png" size="25252" />
+    </image>
+    <image name="Level_2_Platform_16&amp;18">
+      <file name="Level_2_Platform_16&amp;18.png" size="19061" />
+    </image>
+    <image name="Level_2_Platform_17">
+      <file name="Level_2_Platform_17.png" size="14410" />
+    </image>
+    <image name="Level_2_Platform_19">
+      <file name="Level_2_Platform_19.png" size="99825" />
+    </image>
+    <image name="Level_2_Platform_20">
+      <file name="Level_2_Platform_20.png" size="17132" />
+    </image>
+    <image name="Level_2_Platform_24">
+      <file name="Level_2_Platform_24.png" size="30189" />
+    </image>
+    <image name="Level_2_Platforms_21,22,23">
+      <file name="Level_2_Platforms_21,22,23.png" size="14767" />
+    </image>
+    <image name="Spaceship">
+      <file name="Spaceship.png" size="12111" />
+    </image>
+    <image name="NEW_ENEMY_CURVED_3@2x">
+      <file name="NEW_ENEMY_CURVED_3@2x.png" size="11468" />
+    </image>
+    <image name="NEW_ENEMY-2.0@2x">
+      <file name="NEW_ENEMY-2.0@2x.png" size="12993" />
+    </image>
+    <image name="ENEMY_2.0_4@2x">
+      <file name="ENEMY_2.0_4@2x.png" size="23758" />
+    </image>
+    <image name="Enemy_1_animation_1_NEW">
+      <file name="Enemy_1_animation_1_NEW.png" size="19832" />
+    </image>
+    <image name="Enemy_1_animation_2_NEW">
+      <file name="Enemy_1_animation_2_NEW.png" size="18793" />
+    </image>
+    <image name="Enemy_1_animation_3_NEW">
+      <file name="Enemy_1_animation_3_NEW.png" size="14295" />
+    </image>
+    <image name="Enemy_1_animation_4_NEW">
+      <file name="Enemy_1_animation_4_NEW.png" size="11372" />
+    </image>
+    <image name="Enemy_1_animation_5_NEW">
+      <file name="Enemy_1_animation_5_NEW.png" size="6183" />
+    </image>
+    <image name="Enemy_1_animation_6_NEW">
+      <file name="Enemy_1_animation_6_NEW.png" size="6148" />
+    </image>
+    <image name="Enemy_2_animation_1_NEW">
+      <file name="Enemy_2_animation_1_NEW.png" size="23685" />
+    </image>
+    <image name="Enemy_2_animation_2_NEW">
+      <file name="Enemy_2_animation_2_NEW.png" size="28661" />
+    </image>
+    <image name="Enemy_2_animation_3_NEW">
+      <file name="Enemy_2_animation_3_NEW.png" size="19353" />
+    </image>
+    <image name="Enemy_2_animation_4_NEW">
+      <file name="Enemy_2_animation_4_NEW.png" size="14579" />
+    </image>
+    <image name="Enemy_2_animation_5_NEW">
+      <file name="Enemy_2_animation_5_NEW.png" size="7733" />
+    </image>
+    <image name="Level-01-Platform-Comp">
+      <file name="Level-01-Platform-Comp.png" size="124735" />
+    </image>
+    <image name="Flat-Platform-1">
+      <file name="Flat-Platform-1.png" size="14227" />
+    </image>
+    <image name="h02">
+      <file name="h02.png" size="14299" />
+    </image>
+    <image name="h03">
+      <file name="h03.png" size="14198" />
+    </image>
+    <image name="h04">
+      <file name="h04.png" size="14610" />
+    </image>
+    <image name="Jump">
+      <file name="Jump.png" size="14681" />
+    </image>
+    <image name="Start-Screen-01">
+      <file name="Start-Screen-01.png" size="151163" />
+    </image>
+    <image name="Start-Screen-02">
+      <file name="Start-Screen-02.png" size="151705" />
+    </image>
+    <image name="Start-Screen-03">
+      <file name="Start-Screen-03.png" size="152287" />
+    </image>
+    <image name="Start-Screen-04">
+      <file name="Start-Screen-04.png" size="152777" />
+    </image>
+    <image name="Start-Screen-05">
+      <file name="Start-Screen-05.png" size="153479" />
+    </image>
+    <image name="Start-Screen-06">
+      <file name="Start-Screen-06.png" size="154114" />
+    </image>
+    <image name="Start-Screen-07">
+      <file name="Start-Screen-07.png" size="154722" />
+    </image>
+    <image name="Start-Screen-08">
+      <file name="Start-Screen-08.png" size="155456" />
+    </image>
+    <image name="Start-Screen-09">
+      <file name="Start-Screen-09.png" size="156046" />
+    </image>
+    <image name="Start-Screen-10">
+      <file name="Start-Screen-10.png" size="156318" />
+    </image>
+    <image name="Start-Screen-12">
+      <file name="Start-Screen-12.png" size="156318" />
+    </image>
+    <image name="Start-Screen-11">
+      <file name="Start-Screen-11.png" size="156046" />
+    </image>
+    <image name="Score-board">
+      <file name="Score-board.png" size="128849" />
+    </image>
+    <image name="Fall">
+      <file name="Fall.png" size="13865" />
+    </image>
+    <image name="Space_Age_-_exit">
+      <file name="Space_Age_-_exit.png" size="12273" />
+    </image>
+    <image name="Acorn_n">
+      <file name="Acorn_n.png" size="1351" />
+    </image>
+  </images>
+  <fonts />
+  <behaviors />
+</assets>
