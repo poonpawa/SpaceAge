@@ -23,7 +23,7 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id988551" class="CollideBehavior" enabled="true">
+    <behavior id="id988551" class="CollideBehavior" enabled="false">
       <attributes>
         <text id="name">Collide</text>
         <text id="bundleName">Collide.behavior</text>

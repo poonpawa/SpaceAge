@@ -43,7 +43,7 @@
         <text id="RHS">
           <expression>
             <reference keypath="game.attributes.id591961" />
-            <string xml:space="preserve"> + 5</string>
+            <string xml:space="preserve"> </string>
           </expression>
         </text>
       </attributes>
@@ -78,7 +78,7 @@
             <text id="RHS">true</text>
           </attributes>
         </behavior>
-        <behavior id="id914214" class="LogDebuggingStatementAction" enabled="true">
+        <behavior id="id914214" class="LogDebuggingStatementAction" enabled="false">
           <attributes>
             <text id="name">Log Debugging Statement</text>
             <text id="bundleName">LogDebuggingStatement.behavior</text>
@@ -91,20 +91,12 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id410004" class="ChangeAttributeAction" enabled="true">
+    <behavior id="id410004" class="ChangeAttributeAction" enabled="false">
       <attributes>
         <text id="name">Change Attribute</text>
         <text id="bundleName">ChangeAttribute.behavior</text>
         <text id="targetAttribute">self.attributes.color.alpha</text>
         <text id="RHS">0</text>
-      </attributes>
-    </behavior>
-    <behavior id="id496554" class="ChangeAttributeAction" enabled="true">
-      <attributes>
-        <text id="name">Change Attribute</text>
-        <text id="bundleName">ChangeAttribute.behavior</text>
-        <text id="targetAttribute">game.attributes.id693125</text>
-        <text id="RHS">false</text>
       </attributes>
     </behavior>
   </behaviors>

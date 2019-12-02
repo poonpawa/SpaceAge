@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">408</real>
-      <real id="height">358</real>
+      <real id="width">128</real>
+      <real id="height">128</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">Flat-Platform-1</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -56,7 +56,7 @@
         <text id="bundleName">Accelerate.behavior</text>
         <angle id="direction">270</angle>
         <index id="space">1</index>
-        <real id="acceleration">1000</real>
+        <real id="acceleration">800</real>
       </attributes>
     </behavior>
     <behavior id="id539154" class="ControlCameraBehavior" enabled="true">
@@ -110,7 +110,18 @@
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
-            <text id="RHS">550</text>
+            <text id="RHS">500</text>
+          </attributes>
+        </behavior>
+        <behavior id="id438429" class="AnimateBehavior" enabled="true">
+          <attributes>
+            <text id="name">Animate</text>
+            <text id="bundleName">Animate.behavior</text>
+            <text id="images">h02	Jump</text>
+            <index id="speed">10</index>
+            <boolean id="loop">true</boolean>
+            <boolean id="restoreActorImage">true</boolean>
+            <text id="currentFrameAttribute" />
           </attributes>
         </behavior>
       </behaviors>
@@ -123,103 +134,208 @@
         <boolean id="runSequentially">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id457845" class="RuleBehavior" enabled="true">
+        <behavior id="id226368" class="RuleBehavior" enabled="true">
           <attributes>
-            <text id="name">Change to left</text>
+            <text id="name">Debug rule</text>
             <text id="bundleName">Rule.behavior</text>
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id287303" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+            <condition id="id547580" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
               <attributes>
                 <text id="name">default name</text>
                 <index id="conditionType">0</index>
               </attributes>
               <predicate type="collision">
                 <attributes>
-                  <text id="prototypeKey">id206770</text>
+                  <text id="prototypeKey" />
                   <text id="actorTag">Direction_change_platforms</text>
                   <real id="mode">1</real>
                 </attributes>
               </predicate>
             </condition>
-            <condition id="id939212" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-              <attributes>
-                <index id="conditionType">1</index>
-                <text id="subjectAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="number">
-                <attributes>
-                  <text id="operator">&gt;</text>
-                  <real id="RHS">0</real>
-                </attributes>
-              </predicate>
-            </condition>
           </conditions>
           <behaviors>
-            <behavior id="id478943" class="ChangeAttributeAction" enabled="true">
+            <behavior id="id495434" class="LogDebuggingStatementAction" enabled="true">
               <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-                <text id="RHS">-200</text>
+                <text id="name">Log Debugging Statement</text>
+                <text id="bundleName">LogDebuggingStatement.behavior</text>
+                <text id="text">
+                  <expression>
+                    <reference keypath="self.attributes.id695548" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id388020" class="LogDebuggingStatementAction" enabled="true">
+              <attributes>
+                <text id="name">Log Debugging Statement</text>
+                <text id="bundleName">LogDebuggingStatement.behavior</text>
+                <text id="text">
+                  <expression>
+                    <reference keypath="self.aspects.motion.attributes.linearVelocity.x" />
+                  </expression>
+                </text>
               </attributes>
             </behavior>
           </behaviors>
-          <elseBehaviors>
-            <behavior id="id234412" class="ChangeAttributeAction" enabled="false">
-              <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">game.attributes.id812023</text>
-                <text id="RHS">200</text>
-              </attributes>
-            </behavior>
-          </elseBehaviors>
         </behavior>
-        <behavior id="id631899" class="RuleBehavior" enabled="true">
+        <behavior id="id560464" class="TimerBehavior" enabled="true">
           <attributes>
-            <text id="name">Change to right</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
+            <text id="name">Timer</text>
+            <text id="bundleName">Timer.behavior</text>
+            <index id="timerType">0</index>
+            <real id="interval">0</real>
+            <boolean id="runToCompletion">false</boolean>
           </attributes>
-          <conditions>
-            <condition id="id559657" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey">id206770</text>
-                  <text id="actorTag">Direction_change_platforms</text>
-                  <real id="mode">1</real>
-                </attributes>
-              </predicate>
-            </condition>
-            <condition id="id725625" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-              <attributes>
-                <index id="conditionType">1</index>
-                <text id="subjectAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-                <text id="name">default name</text>
-              </attributes>
-              <predicate type="number">
-                <attributes>
-                  <text id="operator">&lt;</text>
-                  <real id="RHS">0</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
           <behaviors>
-            <behavior id="id620055" class="ChangeAttributeAction" enabled="true">
+            <behavior id="id457845" class="RuleBehavior" enabled="true">
               <attributes>
-                <text id="name">Change Attribute</text>
-                <text id="bundleName">ChangeAttribute.behavior</text>
-                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-                <text id="RHS">200</text>
+                <text id="name">Change to left</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
               </attributes>
+              <conditions>
+                <condition id="id287303" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id206770</text>
+                      <text id="actorTag">Direction_change_platforms</text>
+                      <real id="mode">1</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id461325" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id478943" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">-300</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id503703" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                    <text id="RHS">1</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id712506" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id695548</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id234412" class="ChangeAttributeAction" enabled="false">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">300</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id602326" class="ChangeAttributeAction" enabled="false">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id503068" class="ChangeAttributeAction" enabled="false">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id695548</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+            <behavior id="id631899" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Change to right</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id559657" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id206770</text>
+                      <text id="actorTag">Direction_change_platforms</text>
+                      <real id="mode">1</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id463258" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id620055" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">300</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id487407" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id433567" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id695548</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
             </behavior>
           </behaviors>
         </behavior>
@@ -230,11 +346,11 @@
         <text id="name">Collide</text>
         <text id="bundleName">Collide.behavior</text>
         <text id="prototypeKey">id206770</text>
-        <text id="actorTag">Ground</text>
-        <index id="mode">0</index>
+        <text id="actorTag">Direction_change_platforms</text>
+        <index id="mode">1</index>
       </attributes>
     </behavior>
-    <behavior id="id635163" class="RuleBehavior" enabled="false">
+    <behavior id="id635163" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">move Right</text>
         <text id="bundleName">Rule.behavior</text>
@@ -267,7 +383,7 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id270893" class="RuleBehavior" enabled="false">
+    <behavior id="id270893" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">move Left</text>
         <text id="bundleName">Rule.behavior</text>
@@ -305,7 +421,7 @@
         <text id="name">Continuous Acceleration</text>
         <text id="bundleName">ChangeAttribute.behavior</text>
         <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
-        <text id="RHS">200</text>
+        <text id="RHS">300</text>
       </attributes>
     </behavior>
     <behavior id="id442247" class="CompoundBehavior" enabled="true">
@@ -475,10 +591,10 @@
       <attributes>
         <text id="name">Animate</text>
         <text id="bundleName">Animate.behavior</text>
-        <text id="images">14	1	2	3	4	5	6	7	8	9	10	11	12	13	58	67	77	86	95	104	113	122	310	49</text>
-        <index id="speed">30</index>
+        <text id="images">Flat-Platform-1	h02	h03	h04	h03	h02	Flat-Platform-1</text>
+        <index id="speed">15</index>
         <boolean id="loop">true</boolean>
-        <boolean id="restoreActorImage">true</boolean>
+        <boolean id="restoreActorImage">false</boolean>
         <text id="currentFrameAttribute" />
       </attributes>
     </behavior>
@@ -494,26 +610,13 @@
         </text>
       </attributes>
     </behavior>
-    <behavior id="id994832" class="RuleBehavior" enabled="false">
+    <behavior id="id994832" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Wall Jump</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id990171" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id673609</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
         <condition id="id336085" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
           <attributes>
             <text id="name">default name</text>
@@ -538,37 +641,12 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id125367" class="MoveToBehavior" enabled="false">
-          <attributes>
-            <text id="name">Move To</text>
-            <text id="bundleName">MoveTo.behavior</text>
-            <boolean id="runToCompletion">true</boolean>
-            <point id="position">
-              <real id="x">
-                <expression>
-                  <reference keypath="game.attributes.id779108" />
-                  <string xml:space="preserve"> - (</string>
-                  <reference keypath="game.attributes.id439503" />
-                  <string xml:space="preserve">)</string>
-                </expression>
-              </real>
-              <real id="y">
-                <expression>
-                  <reference keypath="game.attributes.id517250" />
-                  <string xml:space="preserve"> + 30</string>
-                </expression>
-              </real>
-            </point>
-            <index id="space">1</index>
-            <real id="speed">200</real>
-          </attributes>
-        </behavior>
         <behavior id="id243799" class="ChangeAttributeAction" enabled="true">
           <attributes>
             <text id="name">Change Attribute</text>
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
-            <text id="RHS">200</text>
+            <text id="RHS">400</text>
           </attributes>
         </behavior>
       </behaviors>
@@ -607,8 +685,8 @@
     </motion>
     <physics>
       <attributes>
-        <real id="density">1</real>
-        <real id="friction">1</real>
+        <real id="density">0</real>
+        <real id="friction">0</real>
         <real id="restitution">0</real>
         <boolean id="fixedRotation">false</boolean>
         <boolean id="movable">true</boolean>

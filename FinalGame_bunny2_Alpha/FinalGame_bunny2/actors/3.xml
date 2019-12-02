@@ -23,57 +23,21 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id757045" class="RuleBehavior" enabled="false">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id391098" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id784889</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
-        <condition id="id271400" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id812023</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">&lt;</text>
-              <real id="RHS">0</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id884194" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id812023</text>
-            <text id="RHS">200</text>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id316651" class="ChangeAttributeAction" enabled="true">
       <attributes>
         <text id="name">Change Attribute</text>
         <text id="bundleName">ChangeAttribute.behavior</text>
         <text id="targetAttribute">self.attributes.color.alpha</text>
         <text id="RHS">0</text>
+      </attributes>
+    </behavior>
+    <behavior id="id262754" class="CollideBehavior" enabled="true">
+      <attributes>
+        <text id="name">Collide</text>
+        <text id="bundleName">Collide.behavior</text>
+        <text id="prototypeKey">id784889</text>
+        <text id="actorTag">Ground</text>
+        <index id="mode">0</index>
       </attributes>
     </behavior>
   </behaviors>

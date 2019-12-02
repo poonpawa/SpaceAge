@@ -33,9 +33,12 @@
     <actor id="id527184" />
     <actor id="id673609" />
     <actor id="id330371" />
+    <actor id="id564587" />
+    <actor id="id985377" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id944384" />
     <scene id="id630038" />
     <scene id="id310962" />
     <scene id="id304657" />
