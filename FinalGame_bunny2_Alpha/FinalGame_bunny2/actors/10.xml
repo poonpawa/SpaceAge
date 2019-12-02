@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id652729" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id716315" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">Powerup_icon</text>
+    <text id="name">Nut_collect_count</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">42</real>
-      <real id="height">68</real>
+      <real id="width">50</real>
+      <real id="height">30</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,11 +18,46 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Space_Pill_Collectable</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id210441" class="DisplayTextBehavior" enabled="true">
+      <attributes>
+        <text id="name">Display Text</text>
+        <text id="bundleName">DisplayText.behavior</text>
+        <text id="text">
+          <expression>
+            <reference keypath="game.attributes.id410366" />
+          </expression>
+        </text>
+        <text id="font">Cambay</text>
+        <real id="size">30</real>
+        <index id="alignment">1</index>
+        <boolean id="wrap">true</boolean>
+        <color id="color">
+          <real id="red">1</real>
+          <real id="green">1</real>
+          <real id="blue">1</real>
+          <real id="alpha">1</real>
+        </color>
+        <real id="offsetx">0</real>
+        <real id="offsety">0</real>
+        <index id="space">0</index>
+        <index id="directionSpace">0</index>
+        <angle id="direction">0</angle>
+      </attributes>
+    </behavior>
+    <behavior id="id124143" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">self.attributes.color.alpha</text>
+        <text id="RHS">0</text>
+      </attributes>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>
@@ -34,8 +69,6 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth" name="tileWidth">84</integer>
-        <integer id="tileHeight" name="tileHeight">127</integer>
       </attributes>
     </graphics>
     <motion>

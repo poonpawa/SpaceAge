@@ -1,274 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id944384">
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id310962">
   <layers>
-    <layer id="id330501">
+    <layer id="id671356">
       <actors>
-        <actor id="id993865" prototype="id700840">
+        <actor id="id762762" prototype="id201447">
           <attributes>
             <point id="position">
-              <real id="x">3852</real>
-              <real id="y">63</real>
-            </point>
-            <size id="size">
-              <real id="width">382</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 19</text>
-            <image id="image">05</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id650780" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">1178</real>
-              <real id="y">67</real>
-            </point>
-            <size id="size">
-              <real id="width">481</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 6</text>
-            <image id="image">03</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id368529" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">1179</real>
-              <real id="y">175</real>
-            </point>
-            <size id="size">
-              <real id="width">481</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 7</text>
-            <image id="image">05</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id705706" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">1954</real>
-              <real id="y">65</real>
+              <real id="x">333</real>
+              <real id="y">182</real>
             </point>
             <size id="size">
               <real id="width">667</real>
-              <real id="height">135</real>
+              <real id="height">375</real>
             </size>
             <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 10</text>
-            <image id="image">06</image>
+            <image id="image">Start-Screen-01</image>
+            <text id="name">Background_start</text>
           </attributes>
+          <behaviors>
+            <behavior id="id790543" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Start-Screen-01	Start-Screen-02	Start-Screen-03	Start-Screen-04	Start-Screen-05	Start-Screen-06	Start-Screen-07	Start-Screen-08	Start-Screen-09	Start-Screen-10	Start-Screen-11	Start-Screen-12</text>
+                <index id="speed">10</index>
+                <boolean id="loop">false</boolean>
+                <boolean id="restoreActorImage">false</boolean>
+                <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+          </behaviors>
           <aspects />
         </actor>
-        <actor id="id142619" prototype="id700840">
+        <actor id="id625670" prototype="id821356">
           <attributes>
             <point id="position">
-              <real id="x">2536</real>
-              <real id="y">208</real>
+              <real id="x">335</real>
+              <real id="y">159</real>
             </point>
             <size id="size">
-              <real id="width">237</real>
-              <real id="height">113</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 13</text>
-            <image id="image">Platform1</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id887487" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">2895</real>
-              <real id="y">284</real>
-            </point>
-            <size id="size">
-              <real id="width">258</real>
-              <real id="height">134</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 14</text>
-            <image id="image">Platform8</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id966646" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">3428</real>
-              <real id="y">64</real>
-            </point>
-            <size id="size">
-              <real id="width">468</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 15</text>
-            <image id="image">02</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id793227" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">3429</real>
-              <real id="y">197</real>
-            </point>
-            <size id="size">
-              <real id="width">469</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 16</text>
-            <image id="image">05</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id861691" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">4302</real>
-              <real id="y">267</real>
-            </point>
-            <size id="size">
-              <real id="width">211</real>
-              <real id="height">81</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 21</text>
-            <image id="image">Platform1</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id961413" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">4658</real>
-              <real id="y">359</real>
-            </point>
-            <size id="size">
-              <real id="width">237</real>
-              <real id="height">104</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 22</text>
-            <image id="image">Platform9</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id671255" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">5030</real>
-              <real id="y">264</real>
-            </point>
-            <size id="size">
-              <real id="width">237</real>
-              <real id="height">90</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 23</text>
-            <image id="image">Platform7</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id140149" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">5776</real>
-              <real id="y">65</real>
-            </point>
-            <size id="size">
-              <real id="width">447</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 25</text>
-            <image id="image">02</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id248886" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">5775</real>
-              <real id="y">199</real>
-            </point>
-            <size id="size">
-              <real id="width">446</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 26</text>
-            <image id="image">05</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id667120" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">298</real>
-              <real id="y">67</real>
-            </point>
-            <size id="size">
-              <real id="width">638</real>
-              <real id="height">134</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <image id="image">06</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id231164" prototype="id700840">
-          <attributes>
-            <point id="position">
-              <real id="x">5436</real>
-              <real id="y">66</real>
-            </point>
-            <size id="size">
-              <real id="width">237</real>
-              <real id="height">135</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">Platform Copy 24</text>
-            <image id="image">04</image>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id907505" prototype="id564587">
-          <attributes>
-            <point id="position">
-              <real id="x">5858</real>
-              <real id="y">355</real>
-            </point>
-            <size id="size">
-              <real id="width">320</real>
-              <real id="height">176</real>
+              <real id="width">168</real>
+              <real id="height">41</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
-          <aspects />
-        </actor>
-        <actor id="id572055" prototype="id784889">
-          <attributes>
-            <point id="position">
-              <real id="x">84</real>
-              <real id="y">312</real>
-            </point>
-            <size id="size">
-              <real id="width">95</real>
-              <real id="height">105</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
+          <aspects>
+            <graphics>
+              <attributes>
+                <boolean id="visible">false</boolean>
+              </attributes>
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
         </actor>
       </actors>
       <attributes>
@@ -278,11 +66,11 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Level 1- Revamped</text>
+    <text id="name">Start Screen</text>
     <real id="time">0</real>
     <size id="size">
-      <real id="width">6000</real>
-      <real id="height">700</real>
+      <real id="width">667</real>
+      <real id="height">375</real>
     </size>
     <boolean id="wrapX">false</boolean>
     <boolean id="wrapY">false</boolean>
@@ -299,15 +87,15 @@
     <rect id="camera">
       <point id="origin">
         <real id="x">0</real>
-        <real id="y">55</real>
+        <real id="y">0</real>
       </point>
       <size id="size">
         <real id="width">667</real>
         <real id="height">375</real>
       </size>
       <size id="trackingArea">
-        <real id="width">0</real>
-        <real id="height">0</real>
+        <real id="width">587</real>
+        <real id="height">315</real>
       </size>
       <real id="rotation">0</real>
     </rect>

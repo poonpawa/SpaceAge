@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Space_Age_-_play</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -45,7 +45,7 @@
           <attributes>
             <text id="name">Change Scene</text>
             <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id871022</text>
+            <text id="sceneKey">id944384</text>
             <index id="enableAdvertisement">0</index>
             <index id="index">1</index>
           </attributes>
@@ -82,9 +82,33 @@
           <attributes>
             <text id="name">Change Scene</text>
             <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id310962</text>
+            <text id="sceneKey">id944384</text>
             <index id="enableAdvertisement">0</index>
             <index id="index">1</index>
+          </attributes>
+        </behavior>
+        <behavior id="id349415" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id143088</text>
+            <text id="RHS">false</text>
+          </attributes>
+        </behavior>
+        <behavior id="id738510" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id391305</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
+        <behavior id="id668711" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id410366</text>
+            <text id="RHS">0</text>
           </attributes>
         </behavior>
       </behaviors>

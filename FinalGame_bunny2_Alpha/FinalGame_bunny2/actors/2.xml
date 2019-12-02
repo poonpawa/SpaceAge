@@ -21,6 +21,8 @@
     <image id="image">Flat-Platform-1</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
+    <boolean id="id583529" name="Jump">false</boolean>
+    <boolean id="id657270" name="Turn_right">true</boolean>
   </attributes>
   <behaviors>
     <behavior id="id376054" class="ConstrainAttributeBehavior" enabled="true">
@@ -113,15 +115,12 @@
             <text id="RHS">500</text>
           </attributes>
         </behavior>
-        <behavior id="id438429" class="AnimateBehavior" enabled="true">
+        <behavior id="id668050" class="ChangeAttributeAction" enabled="true">
           <attributes>
-            <text id="name">Animate</text>
-            <text id="bundleName">Animate.behavior</text>
-            <text id="images">h02	Jump</text>
-            <index id="speed">10</index>
-            <boolean id="loop">true</boolean>
-            <boolean id="restoreActorImage">true</boolean>
-            <text id="currentFrameAttribute" />
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id583529</text>
+            <text id="RHS">true</text>
           </attributes>
         </behavior>
       </behaviors>
@@ -244,7 +243,7 @@
                   <attributes>
                     <text id="name">Change Attribute</text>
                     <text id="bundleName">ChangeAttribute.behavior</text>
-                    <text id="targetAttribute">self.attributes.id695548</text>
+                    <text id="targetAttribute">self.attributes.id657270</text>
                     <text id="RHS">false</text>
                   </attributes>
                 </behavior>
@@ -331,7 +330,7 @@
                   <attributes>
                     <text id="name">Change Attribute</text>
                     <text id="bundleName">ChangeAttribute.behavior</text>
-                    <text id="targetAttribute">self.attributes.id695548</text>
+                    <text id="targetAttribute">self.attributes.id657270</text>
                     <text id="RHS">true</text>
                   </attributes>
                 </behavior>
@@ -350,7 +349,7 @@
         <index id="mode">1</index>
       </attributes>
     </behavior>
-    <behavior id="id635163" class="RuleBehavior" enabled="true">
+    <behavior id="id635163" class="RuleBehavior" enabled="false">
       <attributes>
         <text id="name">move Right</text>
         <text id="bundleName">Rule.behavior</text>
@@ -383,7 +382,7 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id270893" class="RuleBehavior" enabled="true">
+    <behavior id="id270893" class="RuleBehavior" enabled="false">
       <attributes>
         <text id="name">move Left</text>
         <text id="bundleName">Rule.behavior</text>
@@ -560,6 +559,19 @@
             </attributes>
           </predicate>
         </condition>
+        <condition id="id558180" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id391305</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">=</text>
+              <real id="RHS">3</real>
+            </attributes>
+          </predicate>
+        </condition>
       </conditions>
       <behaviors>
         <behavior id="id230977" class="ChangeSceneAction" enabled="true">
@@ -592,9 +604,9 @@
         <text id="name">Animate</text>
         <text id="bundleName">Animate.behavior</text>
         <text id="images">Flat-Platform-1	h02	h03	h04	h03	h02	Flat-Platform-1</text>
-        <index id="speed">15</index>
+        <index id="speed">10</index>
         <boolean id="loop">true</boolean>
-        <boolean id="restoreActorImage">false</boolean>
+        <boolean id="restoreActorImage">true</boolean>
         <text id="currentFrameAttribute" />
       </attributes>
     </behavior>
@@ -647,6 +659,72 @@
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.y</text>
             <text id="RHS">400</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id154801" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Jump animation</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id336291" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">self.attributes.id583529</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id401879" class="AnimateBehavior" enabled="true">
+          <attributes>
+            <text id="name">Animate</text>
+            <text id="bundleName">Animate.behavior</text>
+            <text id="images">h02	Jump	Fall</text>
+            <index id="speed">1</index>
+            <boolean id="loop">false</boolean>
+            <boolean id="restoreActorImage">true</boolean>
+            <text id="currentFrameAttribute" />
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id100369" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Stop Animation</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id876515" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id700840</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id891705" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id583529</text>
+            <text id="RHS">false</text>
           </attributes>
         </behavior>
       </behaviors>

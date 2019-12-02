@@ -75,9 +75,6 @@
     <image name="Space_Age_-_replay">
       <file name="Space_Age_-_replay.png" size="14855" />
     </image>
-    <image name="Space_Age_-_exit">
-      <file name="Space_Age_-_exit.png" size="12273" />
-    </image>
     <image name="obstacle_-_rock@3x_copy">
       <file name="obstacle_-_rock@3x_copy.png" size="176266" />
     </image>
@@ -236,6 +233,54 @@
     </image>
     <image name="Jump">
       <file name="Jump.png" size="14681" />
+    </image>
+    <image name="Start-Screen-01">
+      <file name="Start-Screen-01.png" size="151163" />
+    </image>
+    <image name="Start-Screen-02">
+      <file name="Start-Screen-02.png" size="151705" />
+    </image>
+    <image name="Start-Screen-03">
+      <file name="Start-Screen-03.png" size="152287" />
+    </image>
+    <image name="Start-Screen-04">
+      <file name="Start-Screen-04.png" size="152777" />
+    </image>
+    <image name="Start-Screen-05">
+      <file name="Start-Screen-05.png" size="153479" />
+    </image>
+    <image name="Start-Screen-06">
+      <file name="Start-Screen-06.png" size="154114" />
+    </image>
+    <image name="Start-Screen-07">
+      <file name="Start-Screen-07.png" size="154722" />
+    </image>
+    <image name="Start-Screen-08">
+      <file name="Start-Screen-08.png" size="155456" />
+    </image>
+    <image name="Start-Screen-09">
+      <file name="Start-Screen-09.png" size="156046" />
+    </image>
+    <image name="Start-Screen-10">
+      <file name="Start-Screen-10.png" size="156318" />
+    </image>
+    <image name="Start-Screen-12">
+      <file name="Start-Screen-12.png" size="156318" />
+    </image>
+    <image name="Start-Screen-11">
+      <file name="Start-Screen-11.png" size="156046" />
+    </image>
+    <image name="Score-board">
+      <file name="Score-board.png" size="128849" />
+    </image>
+    <image name="Fall">
+      <file name="Fall.png" size="13865" />
+    </image>
+    <image name="Space_Age_-_exit">
+      <file name="Space_Age_-_exit.png" size="12273" />
+    </image>
+    <image name="Acorn_n">
+      <file name="Acorn_n.png" size="1351" />
     </image>
   </images>
   <fonts />

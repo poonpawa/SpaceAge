@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id304657">
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id147545">
   <layers>
-    <layer id="id399997">
+    <layer id="id385959">
       <actors>
-        <actor id="id500989" prototype="id172943">
+        <actor id="id882814" prototype="id201447">
           <attributes>
             <point id="position">
-              <real id="x">331</real>
-              <real id="y">185</real>
+              <real id="x">334</real>
+              <real id="y">190</real>
             </point>
             <size id="size">
               <real id="width">667</real>
               <real id="height">375</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">Score-board</image>
           </attributes>
           <aspects />
         </actor>
@@ -23,35 +24,52 @@
         <boolean id="scrollable">false</boolean>
       </attributes>
     </layer>
-    <layer id="id325719">
+    <layer id="id883800">
       <actors>
-        <actor id="id363642" prototype="id775256">
+        <actor id="id114057" prototype="id716315">
           <attributes>
             <point id="position">
-              <real id="x">409</real>
-              <real id="y">191</real>
+              <real id="x">320</real>
+              <real id="y">173</real>
             </point>
             <size id="size">
-              <real id="width">135.435658914728</real>
-              <real id="height">128.464705882353</real>
+              <real id="width">37</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">Space_Age_-_replay</image>
+            <image id="image" />
+            <color id="color">
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
-        <actor id="id969791" prototype="id821356">
+        <actor id="id773667" prototype="id533637">
           <attributes>
             <point id="position">
-              <real id="x">539</real>
-              <real id="y">191</real>
+              <real id="x">402</real>
+              <real id="y">174</real>
             </point>
             <size id="size">
-              <real id="width">129.602584814216</real>
-              <real id="height">129.393548387097</real>
+              <real id="width">38</real>
+              <real id="height">30</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">Space_Age_-_exit</image>
+            <image id="image" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id641020" prototype="id527184">
+          <attributes>
+            <point id="position">
+              <real id="x">340</real>
+              <real id="y">132</real>
+            </point>
+            <size id="size">
+              <real id="width">52.8</real>
+              <real id="height">34.4</real>
+            </size>
+            <angle id="rotation">0</angle>
           </attributes>
           <aspects />
         </actor>
@@ -63,7 +81,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Death Screen</text>
+    <text id="name">Level Up Screen</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">667</real>

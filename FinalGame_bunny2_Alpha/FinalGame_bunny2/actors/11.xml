@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id716315" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id533637" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">Nut_collect_count</text>
+    <text id="name">PowerUp_count</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -23,13 +23,13 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id210441" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id410713" class="DisplayTextBehavior" enabled="true">
       <attributes>
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">
           <expression>
-            <reference keypath="game.attributes.id410366" />
+            <reference keypath="game.attributes.id391305" />
           </expression>
         </text>
         <text id="font">Cambay</text>
@@ -49,7 +49,7 @@
         <angle id="direction">0</angle>
       </attributes>
     </behavior>
-    <behavior id="id124143" class="ChangeAttributeAction" enabled="true">
+    <behavior id="id437004" class="ChangeAttributeAction" enabled="true">
       <attributes>
         <text id="name">Change Attribute</text>
         <text id="bundleName">ChangeAttribute.behavior</text>
