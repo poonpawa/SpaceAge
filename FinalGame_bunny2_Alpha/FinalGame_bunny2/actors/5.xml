@@ -78,20 +78,17 @@
             <text id="RHS">true</text>
           </attributes>
         </behavior>
-        <behavior id="id914214" class="LogDebuggingStatementAction" enabled="false">
+        <behavior id="id922881" class="ChangeAttributeAction" enabled="true">
           <attributes>
-            <text id="name">Log Debugging Statement</text>
-            <text id="bundleName">LogDebuggingStatement.behavior</text>
-            <text id="text">
-              <expression>
-                <reference keypath="game.attributes.id693125" />
-              </expression>
-            </text>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id552193</text>
+            <text id="RHS">true</text>
           </attributes>
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id410004" class="ChangeAttributeAction" enabled="false">
+    <behavior id="id410004" class="ChangeAttributeAction" enabled="true">
       <attributes>
         <text id="name">Change Attribute</text>
         <text id="bundleName">ChangeAttribute.behavior</text>

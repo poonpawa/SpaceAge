@@ -60,7 +60,7 @@
               <expression>
                 <reference keypath="game.attributes.id391305" />
                 <string xml:space="preserve"> + </string>
-                <string xml:space="preserve">50</string>
+                <string xml:space="preserve">1</string>
               </expression>
             </text>
           </attributes>

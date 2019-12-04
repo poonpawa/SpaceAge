@@ -82,7 +82,7 @@
         <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
         <boolean id="movable">true</boolean>
-        <enumeration id="collisionShape">0</enumeration>
+        <enumeration id="collisionShape">1</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
         <boolean id="canSleep">true</boolean>

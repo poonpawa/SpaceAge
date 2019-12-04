@@ -539,66 +539,6 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id747153" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Level Up screen</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id915793" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id406905</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
-        <condition id="id558180" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id391305</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">=</text>
-              <real id="RHS">3</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id230977" class="ChangeSceneAction" enabled="true">
-          <attributes>
-            <text id="name">Change Scene</text>
-            <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id147545</text>
-            <index id="enableAdvertisement">0</index>
-            <index id="index">1</index>
-          </attributes>
-        </behavior>
-        <behavior id="id226999" class="DestroyAction" enabled="true">
-          <attributes>
-            <text id="name">Destroy</text>
-            <text id="bundleName">Destroy.behavior</text>
-          </attributes>
-        </behavior>
-        <behavior id="id629827" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id143088</text>
-            <text id="RHS">true</text>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id137235" class="AnimateBehavior" enabled="true">
       <attributes>
         <text id="name">Animate</text>
@@ -725,6 +665,36 @@
             <text id="bundleName">ChangeAttribute.behavior</text>
             <text id="targetAttribute">self.attributes.id583529</text>
             <text id="RHS">false</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id359464" class="RuleBehavior" enabled="false">
+      <attributes>
+        <text id="name">level up collide</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id495640" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id406905</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id387668" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
           </attributes>
         </behavior>
       </behaviors>
