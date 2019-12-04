@@ -66,9 +66,6 @@
     <image name="1">
       <file name="1.png" size="10268" />
     </image>
-    <image name="Space_Age_-_replay">
-      <file name="Space_Age_-_replay.png" size="14855" />
-    </image>
     <image name="obstacle_-_rock@3x_copy">
       <file name="obstacle_-_rock@3x_copy.png" size="176266" />
     </image>
@@ -134,21 +131,6 @@
     </image>
     <image name="Enemy_1_animation_6_NEW">
       <file name="Enemy_1_animation_6_NEW.png" size="6148" />
-    </image>
-    <image name="Enemy_2_animation_1_NEW">
-      <file name="Enemy_2_animation_1_NEW.png" size="23685" />
-    </image>
-    <image name="Enemy_2_animation_2_NEW">
-      <file name="Enemy_2_animation_2_NEW.png" size="28661" />
-    </image>
-    <image name="Enemy_2_animation_3_NEW">
-      <file name="Enemy_2_animation_3_NEW.png" size="19353" />
-    </image>
-    <image name="Enemy_2_animation_4_NEW">
-      <file name="Enemy_2_animation_4_NEW.png" size="14579" />
-    </image>
-    <image name="Enemy_2_animation_5_NEW">
-      <file name="Enemy_2_animation_5_NEW.png" size="7733" />
     </image>
     <image name="Level-01-Platform-Comp">
       <file name="Level-01-Platform-Comp.png" size="124735" />
@@ -338,6 +320,24 @@
     </image>
     <image name="i3">
       <file name="i3.png" size="14678" />
+    </image>
+    <image name="Level_2_enemy_2_animation_3">
+      <file name="Level_2_enemy_2_animation_3.png" size="19348" />
+    </image>
+    <image name="Level_2_enemy_2_animation_4">
+      <file name="Level_2_enemy_2_animation_4.png" size="14575" />
+    </image>
+    <image name="Level_2_enemy_2_animation_5">
+      <file name="Level_2_enemy_2_animation_5.png" size="7728" />
+    </image>
+    <image name="Level_2_enemy_2_animation_1">
+      <file name="Level_2_enemy_2_animation_1.png" size="23685" />
+    </image>
+    <image name="Level_2_enemy_2_animation_2">
+      <file name="Level_2_enemy_2_animation_2.png" size="28656" />
+    </image>
+    <image name="Space_Age_-_replay">
+      <file name="Space_Age_-_replay.png" size="14855" />
     </image>
   </images>
   <fonts />

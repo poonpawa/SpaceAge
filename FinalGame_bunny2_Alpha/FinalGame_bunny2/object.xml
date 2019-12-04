@@ -38,6 +38,8 @@
     <actor id="id683800" />
     <actor id="id586638" />
     <actor id="id208761" />
+    <actor id="id706818" />
+    <actor id="id673091" />
   </prototypes>
   <plugins />
   <scenes>
@@ -47,6 +49,7 @@
     <scene id="id147545" />
     <scene id="id304657" />
     <scene id="id871022" />
+    <scene id="id185454" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -225,5 +228,8 @@
     <real id="id439503" name="Wall_jump_direction">20</real>
     <boolean id="id552193" name="ScreenShake">false</boolean>
     <boolean id="id706962" name="InitialGameplay">true</boolean>
+    <integer id="id411404" name="Current_level">1</integer>
+    <integer id="id247188" name="PrevLevel_nut_count">0</integer>
+    <integer id="id830765" name="PrevLevel_Powerup_count">0</integer>
   </attributes>
 </game>

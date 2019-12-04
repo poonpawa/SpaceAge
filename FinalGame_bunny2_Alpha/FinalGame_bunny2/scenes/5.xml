@@ -37,7 +37,7 @@
               <real id="height">128</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">Space_Age_-_replay</image>
+            <image id="image" />
           </attributes>
           <behaviors>
             <behavior id="id355692" class="RuleBehavior" enabled="true">

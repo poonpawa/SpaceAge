@@ -290,8 +290,8 @@
         <actor id="id560846" prototype="id556517">
           <attributes>
             <point id="position">
-              <real id="x">974</real>
-              <real id="y">359</real>
+              <real id="x">979</real>
+              <real id="y">294</real>
             </point>
             <size id="size">
               <real id="width">42</real>
@@ -380,8 +380,8 @@
         <actor id="id172971" prototype="id924573">
           <attributes>
             <point id="position">
-              <real id="x">5423</real>
-              <real id="y">209</real>
+              <real id="x">5421</real>
+              <real id="y">281</real>
             </point>
             <size id="size">
               <real id="width">38</real>
@@ -557,6 +557,30 @@
                     <text id="RHS">true</text>
                   </attributes>
                 </behavior>
+                <behavior id="id720029" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id247188</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id410366" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id123836" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id830765</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id391305" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
               </behaviors>
             </behavior>
           </behaviors>
@@ -625,8 +649,8 @@
         <actor id="id758671" prototype="id275651">
           <attributes>
             <point id="position">
-              <real id="x">1083</real>
-              <real id="y">307</real>
+              <real id="x">1063</real>
+              <real id="y">260</real>
             </point>
             <size id="size">
               <real id="width">130</real>
@@ -879,7 +903,7 @@
           <attributes>
             <point id="position">
               <real id="x">1158</real>
-              <real id="y">162</real>
+              <real id="y">133</real>
             </point>
             <size id="size">
               <real id="width">492</real>
@@ -984,12 +1008,12 @@
         <actor id="id231164" prototype="id700840">
           <attributes>
             <point id="position">
-              <real id="x">5436</real>
-              <real id="y">70</real>
+              <real id="x">5407</real>
+              <real id="y">78</real>
             </point>
             <size id="size">
-              <real id="width">237</real>
-              <real id="height">174</real>
+              <real id="width">298</real>
+              <real id="height">200</real>
             </size>
             <angle id="rotation">0</angle>
             <text id="name">Platform Copy 24</text>
@@ -1098,8 +1122,8 @@
         <actor id="id735624" prototype="id167971">
           <attributes>
             <point id="position">
-              <real id="x">1317</real>
-              <real id="y">266</real>
+              <real id="x">1318</real>
+              <real id="y">238</real>
             </point>
             <size id="size">
               <real id="width">85</real>
@@ -1196,8 +1220,8 @@
         <actor id="id354198" prototype="id347394">
           <attributes>
             <point id="position">
-              <real id="x">2138</real>
-              <real id="y">184</real>
+              <real id="x">1858</real>
+              <real id="y">186</real>
             </point>
             <size id="size">
               <real id="width">80</real>
@@ -1231,16 +1255,37 @@
                 </condition>
               </conditions>
               <behaviors>
-                <behavior id="id722870" class="AnimateBehavior" enabled="false">
+                <behavior id="id827526" class="TimerBehavior" enabled="true">
                   <attributes>
-                    <text id="name">Animate</text>
-                    <text id="bundleName">Animate.behavior</text>
-                    <text id="images">Enemy_2_animation_1	Enemy_2_animation_2	Enemy_2_animation_3</text>
-                    <index id="speed">10</index>
-                    <boolean id="loop">true</boolean>
-                    <boolean id="restoreActorImage">true</boolean>
-                    <text id="currentFrameAttribute" />
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">2</index>
+                    <real id="interval">1</real>
+                    <boolean id="runToCompletion">false</boolean>
                   </attributes>
+                  <behaviors>
+                    <behavior id="id461664" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id706818</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">
+                          <expression>
+                            <reference keypath="self.attributes.position.x" />
+                          </expression>
+                        </real>
+                        <real id="y">
+                          <expression>
+                            <reference keypath="self.attributes.position.y" />
+                          </expression>
+                        </real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">0</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
                 </behavior>
                 <behavior id="id126413" class="DestroyAction" enabled="true">
                   <attributes>
@@ -1254,17 +1299,6 @@
                     <text id="bundleName">ChangeAttribute.behavior</text>
                     <text id="targetAttribute">game.attributes.id693125</text>
                     <text id="RHS">false</text>
-                  </attributes>
-                </behavior>
-                <behavior id="id226658" class="LogDebuggingStatementAction" enabled="true">
-                  <attributes>
-                    <text id="name">Log Debugging Statement</text>
-                    <text id="bundleName">LogDebuggingStatement.behavior</text>
-                    <text id="text">
-                      <expression>
-                        <reference keypath="game.attributes.id693125" />
-                      </expression>
-                    </text>
                   </attributes>
                 </behavior>
               </behaviors>
@@ -1480,7 +1514,7 @@
             </graphics>
             <physics>
               <attributes>
-                <enumeration id="collisionShape">0</enumeration>
+                <enumeration id="collisionShape">1</enumeration>
                 <boolean id="canSleep">true</boolean>
                 <boolean id="betterColisions">false</boolean>
               </attributes>
@@ -1490,11 +1524,11 @@
         <actor id="id876821" prototype="id610722">
           <attributes>
             <point id="position">
-              <real id="x">2140</real>
-              <real id="y">234</real>
+              <real id="x">1858</real>
+              <real id="y">241</real>
             </point>
             <size id="size">
-              <real id="width">90</real>
+              <real id="width">56</real>
               <real id="height">15</real>
             </size>
             <angle id="rotation">0</angle>
@@ -1573,13 +1607,19 @@
               </attributes>
             </behavior>
           </behaviors>
-          <aspects />
+          <aspects>
+            <physics>
+              <attributes>
+                <real id="density">0</real>
+              </attributes>
+            </physics>
+          </aspects>
         </actor>
         <actor id="id572055" prototype="id784889">
           <attributes>
             <point id="position">
-              <real id="x">61</real>
-              <real id="y">388</real>
+              <real id="x">65</real>
+              <real id="y">387</real>
             </point>
             <size id="size">
               <real id="width">75</real>
