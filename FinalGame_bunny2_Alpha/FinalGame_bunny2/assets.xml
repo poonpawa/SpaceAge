@@ -84,9 +84,6 @@
     <image name="Space_Age_game">
       <file name="Space_Age_game.png" size="202636" />
     </image>
-    <image name="Space_Age_-_play">
-      <file name="Space_Age_-_play.png" size="11489" />
-    </image>
     <image name="Space_Age_start_screen">
       <file name="Space_Age_start_screen.png" size="208984" />
     </image>
@@ -281,6 +278,54 @@
     </image>
     <image name="Acorn_n">
       <file name="Acorn_n.png" size="1351" />
+    </image>
+    <image name="mountain2 (1)">
+      <file name="mountain2 (1).png" size="42378" />
+    </image>
+    <image name="background_new">
+      <file name="background_new.png" size="14169" />
+    </image>
+    <image name="Spikes">
+      <file name="Spikes.png" size="5338" />
+    </image>
+    <image name="Level-Change-2">
+      <file name="Level-Change-2.png" size="132903" />
+    </image>
+    <image name="t1">
+      <file name="t1.png" size="6145" />
+    </image>
+    <image name="t2">
+      <file name="t2.png" size="8694" />
+    </image>
+    <image name="t3">
+      <file name="t3.png" size="4858" />
+    </image>
+    <image name="Level-Change-1">
+      <file name="Level-Change-1.png" size="133853" />
+    </image>
+    <image name="Space_Age_-_play">
+      <file name="Space_Age_-_play.png" size="11489" />
+    </image>
+    <image name="Level_2_Background">
+      <file name="Level_2_Background.png" size="31433" />
+    </image>
+    <image name="Level_2_Rock_1">
+      <file name="Level_2_Rock_1.png" size="15704" />
+    </image>
+    <image name="Level_2_Rock_2">
+      <file name="Level_2_Rock_2.png" size="17149" />
+    </image>
+    <image name="C1">
+      <file name="C1.png" size="5969" />
+    </image>
+    <image name="C2">
+      <file name="C2.png" size="6784" />
+    </image>
+    <image name="C3">
+      <file name="C3.png" size="5105" />
+    </image>
+    <image name="C4">
+      <file name="C4.png" size="5246" />
     </image>
   </images>
   <fonts />

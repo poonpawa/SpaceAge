@@ -36,7 +36,7 @@
   <aspects>
     <graphics>
       <attributes>
-        <boolean id="visible">true</boolean>
+        <boolean id="visible">false</boolean>
         <enumeration id="blendingMode">0</enumeration>
         <enumeration id="horizontalWrap">0</enumeration>
         <enumeration id="verticalWrap">0</enumeration>

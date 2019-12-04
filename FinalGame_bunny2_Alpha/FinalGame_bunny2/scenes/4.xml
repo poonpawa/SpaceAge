@@ -2,23 +2,7 @@
 <scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id147545">
   <layers>
     <layer id="id385959">
-      <actors>
-        <actor id="id882814" prototype="id201447">
-          <attributes>
-            <point id="position">
-              <real id="x">334</real>
-              <real id="y">190</real>
-            </point>
-            <size id="size">
-              <real id="width">667</real>
-              <real id="height">375</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <image id="image">Score-board</image>
-          </attributes>
-          <aspects />
-        </actor>
-      </actors>
+      <actors />
       <attributes>
         <text id="name">Layer 1</text>
         <boolean id="scrollable">false</boolean>
@@ -26,51 +10,139 @@
     </layer>
     <layer id="id883800">
       <actors>
-        <actor id="id114057" prototype="id716315">
+        <actor id="id964028" prototype="id201447">
           <attributes>
             <point id="position">
-              <real id="x">320</real>
-              <real id="y">173</real>
+              <real id="x">333</real>
+              <real id="y">188</real>
             </point>
             <size id="size">
-              <real id="width">37</real>
-              <real id="height">30</real>
+              <real id="width">667</real>
+              <real id="height">375</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image" />
-            <color id="color">
-              <real id="alpha">1</real>
-            </color>
+            <image id="image">Level-Change-1</image>
           </attributes>
+          <behaviors>
+            <behavior id="id454144" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Level-Change-1	Level-Change-2</text>
+                <index id="speed">4</index>
+                <boolean id="loop">true</boolean>
+                <boolean id="restoreActorImage">true</boolean>
+                <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+          </behaviors>
           <aspects />
         </actor>
-        <actor id="id773667" prototype="id533637">
+        <actor id="id109877" prototype="id821356">
           <attributes>
             <point id="position">
-              <real id="x">402</real>
-              <real id="y">174</real>
+              <real id="x">568</real>
+              <real id="y">78</real>
             </point>
             <size id="size">
-              <real id="width">38</real>
-              <real id="height">30</real>
+              <real id="width">110</real>
+              <real id="height">88</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image" />
+            <image id="image">Space_Age_-_play</image>
           </attributes>
-          <aspects />
-        </actor>
-        <actor id="id641020" prototype="id527184">
-          <attributes>
-            <point id="position">
-              <real id="x">340</real>
-              <real id="y">132</real>
-            </point>
-            <size id="size">
-              <real id="width">52.8</real>
-              <real id="height">34.4</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
+          <behaviors>
+            <behavior id="id779441" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Play Again</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id508424" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mouse" mouseState="down">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id810123" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id630038</text>
+                    <index id="enableAdvertisement">0</index>
+                    <index id="index">1</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id809056" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id143088</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id289159" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id922617" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id697879" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id630038</text>
+                    <index id="enableAdvertisement">0</index>
+                    <index id="index">1</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id354448" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id143088</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id575220" class="ChangeAttributeAction" enabled="false">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id391305</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id557185" class="ChangeAttributeAction" enabled="false">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id410366</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
           <aspects />
         </actor>
       </actors>
