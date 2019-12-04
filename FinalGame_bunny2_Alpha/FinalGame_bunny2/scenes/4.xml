@@ -124,7 +124,7 @@
                     <text id="RHS">false</text>
                   </attributes>
                 </behavior>
-                <behavior id="id575220" class="ChangeAttributeAction" enabled="true">
+                <behavior id="id575220" class="ChangeAttributeAction" enabled="false">
                   <attributes>
                     <text id="name">Change Attribute</text>
                     <text id="bundleName">ChangeAttribute.behavior</text>
@@ -132,7 +132,7 @@
                     <text id="RHS">0</text>
                   </attributes>
                 </behavior>
-                <behavior id="id557185" class="ChangeAttributeAction" enabled="true">
+                <behavior id="id557185" class="ChangeAttributeAction" enabled="false">
                   <attributes>
                     <text id="name">Change Attribute</text>
                     <text id="bundleName">ChangeAttribute.behavior</text>
