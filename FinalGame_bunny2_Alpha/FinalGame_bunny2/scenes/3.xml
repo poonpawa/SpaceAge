@@ -168,7 +168,7 @@
             <angle id="rotation">0</angle>
             <real id="id564755" name="StartX">1843</real>
             <real id="id783988" name="EndX">2148</real>
-            <image id="image">Enemy_1.1_small</image>
+            <image id="image" />
             <integer id="id951793" name="Speed">100</integer>
           </attributes>
           <behaviors>

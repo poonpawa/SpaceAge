@@ -15,12 +15,6 @@
     <image name="Mr.-Squirrel">
       <file name="Mr.-Squirrel.png" size="47883" />
     </image>
-    <image name="Enemy_1.2_small@3x">
-      <file name="Enemy_1.2_small@3x.png" size="9856" />
-    </image>
-    <image name="Enemy_1.1_small">
-      <file name="Enemy_1.1_small.png" size="18990" />
-    </image>
     <image name="Flat-Platform">
       <file name="Flat-Platform.png" size="18442" />
     </image>
@@ -105,68 +99,11 @@
     <image name="06">
       <file name="06.png" size="53584" />
     </image>
-    <image name="Level_2_Platform_1">
-      <file name="Level_2_Platform_1.png" size="42667" />
-    </image>
-    <image name="Level_2_Platform_2">
-      <file name="Level_2_Platform_2.png" size="28903" />
-    </image>
-    <image name="Level_2_Platform_3">
-      <file name="Level_2_Platform_3.png" size="83924" />
-    </image>
-    <image name="Level_2_Platform_4">
-      <file name="Level_2_Platform_4.png" size="16284" />
-    </image>
     <image name="Level_2_Platform_5">
       <file name="Level_2_Platform_5.png" size="10767" />
     </image>
     <image name="Level_2_Platform_6">
       <file name="Level_2_Platform_6.png" size="15053" />
-    </image>
-    <image name="Level_2_Platform_7">
-      <file name="Level_2_Platform_7.png" size="18507" />
-    </image>
-    <image name="Level_2_Platform_8">
-      <file name="Level_2_Platform_8.png" size="21421" />
-    </image>
-    <image name="Level_2_Platform_9">
-      <file name="Level_2_Platform_9.png" size="11792" />
-    </image>
-    <image name="Level_2_Platform_10">
-      <file name="Level_2_Platform_10.png" size="18072" />
-    </image>
-    <image name="Level_2_Platform_11">
-      <file name="Level_2_Platform_11.png" size="30508" />
-    </image>
-    <image name="Level_2_Platform_12">
-      <file name="Level_2_Platform_12.png" size="4009" />
-    </image>
-    <image name="Level_2_Platform_13">
-      <file name="Level_2_Platform_13.png" size="12276" />
-    </image>
-    <image name="Level_2_Platform_14">
-      <file name="Level_2_Platform_14.png" size="22717" />
-    </image>
-    <image name="Level_2_Platform_15">
-      <file name="Level_2_Platform_15.png" size="25252" />
-    </image>
-    <image name="Level_2_Platform_16&amp;18">
-      <file name="Level_2_Platform_16&amp;18.png" size="19061" />
-    </image>
-    <image name="Level_2_Platform_17">
-      <file name="Level_2_Platform_17.png" size="14410" />
-    </image>
-    <image name="Level_2_Platform_19">
-      <file name="Level_2_Platform_19.png" size="99825" />
-    </image>
-    <image name="Level_2_Platform_20">
-      <file name="Level_2_Platform_20.png" size="17132" />
-    </image>
-    <image name="Level_2_Platform_24">
-      <file name="Level_2_Platform_24.png" size="30189" />
-    </image>
-    <image name="Level_2_Platforms_21,22,23">
-      <file name="Level_2_Platforms_21,22,23.png" size="14767" />
     </image>
     <image name="Spaceship">
       <file name="Spaceship.png" size="12111" />
@@ -326,6 +263,69 @@
     </image>
     <image name="C4">
       <file name="C4.png" size="5246" />
+    </image>
+    <image name="Level_2_enemy_1.1">
+      <file name="Level_2_enemy_1.1.png" size="23262" />
+    </image>
+    <image name="Level_2_enemy_1.2">
+      <file name="Level_2_enemy_1.2.png" size="23484" />
+    </image>
+    <image name="1p">
+      <file name="1p.png" size="74099" />
+    </image>
+    <image name="2">
+      <file name="2.png" size="32404" />
+    </image>
+    <image name="3">
+      <file name="3.png" size="73938" />
+    </image>
+    <image name="8">
+      <file name="8.png" size="47836" />
+    </image>
+    <image name="10">
+      <file name="10.png" size="39548" />
+    </image>
+    <image name="11">
+      <file name="11.png" size="142069" />
+    </image>
+    <image name="9">
+      <file name="9.png" size="25488" />
+    </image>
+    <image name="20">
+      <file name="20.png" size="78506" />
+    </image>
+    <image name="19">
+      <file name="19.png" size="61615" />
+    </image>
+    <image name="18">
+      <file name="18.png" size="34598" />
+    </image>
+    <image name="17">
+      <file name="17.png" size="58598" />
+    </image>
+    <image name="16">
+      <file name="16.png" size="37073" />
+    </image>
+    <image name="21">
+      <file name="21.png" size="34418" />
+    </image>
+    <image name="22">
+      <file name="22.png" size="34418" />
+    </image>
+    <image name="12">
+      <file name="12.png" size="15440" />
+    </image>
+    <image name="12-13">
+      <file name="12-13.png" size="51986" />
+    </image>
+    <image name="24">
+      <file name="24.png" size="149439" />
+    </image>
+    <image name="15">
+      <file name="15.png" size="97401" />
+    </image>
+    <image name="14">
+      <file name="14.png" size="34072" />
     </image>
   </images>
   <fonts />

@@ -133,52 +133,6 @@
         <boolean id="runSequentially">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id226368" class="RuleBehavior" enabled="true">
-          <attributes>
-            <text id="name">Debug rule</text>
-            <text id="bundleName">Rule.behavior</text>
-            <real id="compoundConditionKind">0</real>
-          </attributes>
-          <conditions>
-            <condition id="id547580" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
-              <predicate type="collision">
-                <attributes>
-                  <text id="prototypeKey" />
-                  <text id="actorTag">Direction_change_platforms</text>
-                  <real id="mode">1</real>
-                </attributes>
-              </predicate>
-            </condition>
-          </conditions>
-          <behaviors>
-            <behavior id="id495434" class="LogDebuggingStatementAction" enabled="true">
-              <attributes>
-                <text id="name">Log Debugging Statement</text>
-                <text id="bundleName">LogDebuggingStatement.behavior</text>
-                <text id="text">
-                  <expression>
-                    <reference keypath="self.attributes.id695548" />
-                  </expression>
-                </text>
-              </attributes>
-            </behavior>
-            <behavior id="id388020" class="LogDebuggingStatementAction" enabled="true">
-              <attributes>
-                <text id="name">Log Debugging Statement</text>
-                <text id="bundleName">LogDebuggingStatement.behavior</text>
-                <text id="text">
-                  <expression>
-                    <reference keypath="self.aspects.motion.attributes.linearVelocity.x" />
-                  </expression>
-                </text>
-              </attributes>
-            </behavior>
-          </behaviors>
-        </behavior>
         <behavior id="id560464" class="TimerBehavior" enabled="true">
           <attributes>
             <text id="name">Timer</text>

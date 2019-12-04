@@ -924,7 +924,7 @@
               <real id="height">63.2</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">Enemy_1.2_small@3x</image>
+            <image id="image" />
             <real id="id252093" name="StartX">2340</real>
             <real id="id684807" name="EndX">2715</real>
             <real id="id552728" name="Speed">50</real>
@@ -1215,7 +1215,7 @@
               <real id="height">72</real>
             </size>
             <angle id="rotation">0</angle>
-            <image id="image">Enemy_1.2_small@3x</image>
+            <image id="image" />
             <real id="id592881" name="StartX">2340</real>
             <real id="id624430" name="EndX">2715</real>
             <real id="id458761" name="Speed">50</real>

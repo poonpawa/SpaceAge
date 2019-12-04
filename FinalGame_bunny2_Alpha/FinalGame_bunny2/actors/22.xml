@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Enemy_1.2_small@3x</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
     <integer id="id171378" name="Speed">100</integer>
