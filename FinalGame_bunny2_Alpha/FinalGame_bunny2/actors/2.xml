@@ -623,33 +623,96 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior id="id359464" class="RuleBehavior" enabled="false">
+    <behavior id="id773875" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">level up collide</text>
+        <text id="name">Instruction_popup</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id495640" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+        <condition id="id613498" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
           <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id706962</text>
             <text id="name">default name</text>
-            <index id="conditionType">0</index>
           </attributes>
-          <predicate type="collision">
+          <predicate type="boolean">
             <attributes>
-              <text id="prototypeKey">id406905</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
+              <index id="RHS">1</index>
             </attributes>
           </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id387668" class="DestroyAction" enabled="true">
+        <behavior id="id791454" class="RuleBehavior" enabled="true">
           <attributes>
-            <text id="name">Destroy</text>
-            <text id="bundleName">Destroy.behavior</text>
+            <text id="name">Instruction Stop</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
           </attributes>
+          <conditions>
+            <condition id="id151235" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id167971</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id881265" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">2</index>
+                <real id="interval">2</real>
+                <boolean id="runToCompletion">true</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id175826" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id996847" class="ConstrainAttributeBehavior" enabled="false">
+                  <attributes>
+                    <text id="name">Constrain Attribute</text>
+                    <text id="bundleName">ConstrainAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id215586" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">1</index>
+                <real id="interval">2</real>
+                <boolean id="runToCompletion">true</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id215475" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">300</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
         </behavior>
       </behaviors>
     </behavior>

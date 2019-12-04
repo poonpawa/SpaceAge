@@ -327,6 +327,18 @@
     <image name="14">
       <file name="14.png" size="34072" />
     </image>
+    <image name="Checkpost">
+      <file name="Checkpost.png" size="3417" />
+    </image>
+    <image name="i4">
+      <file name="i4.png" size="15549" />
+    </image>
+    <image name="i2">
+      <file name="i2.png" size="14605" />
+    </image>
+    <image name="i3">
+      <file name="i3.png" size="14678" />
+    </image>
   </images>
   <fonts />
   <behaviors />

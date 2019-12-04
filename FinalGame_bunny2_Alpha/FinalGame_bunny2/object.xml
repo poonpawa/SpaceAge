@@ -34,11 +34,15 @@
     <actor id="id601101" />
     <actor id="id704197" />
     <actor id="id275651" />
+    <actor id="id167971" />
+    <actor id="id683800" />
+    <actor id="id586638" />
+    <actor id="id208761" />
   </prototypes>
   <plugins />
   <scenes>
-    <scene id="id630038" />
     <scene id="id310962" />
+    <scene id="id630038" />
     <scene id="id944384" />
     <scene id="id147545" />
     <scene id="id304657" />
@@ -220,5 +224,6 @@
     <real id="id517250" name="Player Y position">0</real>
     <real id="id439503" name="Wall_jump_direction">20</real>
     <boolean id="id552193" name="ScreenShake">false</boolean>
+    <boolean id="id706962" name="InitialGameplay">true</boolean>
   </attributes>
 </game>
