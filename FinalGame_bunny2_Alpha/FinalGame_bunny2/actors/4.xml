@@ -47,17 +47,6 @@
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id503374" class="AnimateBehavior" enabled="false">
-          <attributes>
-            <text id="name">Animate</text>
-            <text id="bundleName">Animate.behavior</text>
-            <text id="images">Enemy_2_animation_1	Enemy_2_animation_2	Enemy_2_animation_3</text>
-            <index id="speed">10</index>
-            <boolean id="loop">true</boolean>
-            <boolean id="restoreActorImage">true</boolean>
-            <text id="currentFrameAttribute" />
-          </attributes>
-        </behavior>
         <behavior id="id223551" class="DestroyAction" enabled="true">
           <attributes>
             <text id="name">Destroy</text>
