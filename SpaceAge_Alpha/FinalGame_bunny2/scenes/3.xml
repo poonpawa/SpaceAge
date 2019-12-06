@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id944384">
+  <layers>
+    <layer id="id330501">
+      <actors>
+        <actor id="id710809" prototype="id985377">
+          <attributes>
+            <point id="position">
+              <real id="x">2986</real>
+              <real id="y">349</real>
+            </point>
+            <size id="size">
+              <real id="width">6100</real>
+              <real id="height">700</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id913264" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id125537" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">scene.attributes.id715308</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">2</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id362607" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id706962</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id142619" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">2521</real>
+              <real id="y">144</real>
+            </point>
+            <size id="size">
+              <real id="width">222</real>
+              <real id="height">84</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 13</text>
+            <image id="image">Platform1</image>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <enumeration id="collisionShape">0</enumeration>
+                <real id="density">1</real>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id887487" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">2913</real>
+              <real id="y">172</real>
+            </point>
+            <size id="size">
+              <real id="width">258</real>
+              <real id="height">93</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 14</text>
+            <image id="image">Platform8</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id861691" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">4285</real>
+              <real id="y">126</real>
+            </point>
+            <size id="size">
+              <real id="width">249</real>
+              <real id="height">84</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 21</text>
+            <image id="image">Platform1</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id961413" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">4614</real>
+              <real id="y">181</real>
+            </point>
+            <size id="size">
+              <real id="width">237</real>
+              <real id="height">104</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 22</text>
+            <image id="image">Platform9</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id671255" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">4958</real>
+              <real id="y">136</real>
+            </point>
+            <size id="size">
+              <real id="width">237</real>
+              <real id="height">90</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 23</text>
+            <image id="image">Platform7</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id140149" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">5771</real>
+              <real id="y">2</real>
+            </point>
+            <size id="size">
+              <real id="width">447</real>
+              <real id="height">135</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 25</text>
+            <image id="image">02</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id248886" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">5771</real>
+              <real id="y">134</real>
+            </point>
+            <size id="size">
+              <real id="width">446</real>
+              <real id="height">135</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 26</text>
+            <image id="image">05</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id907505" prototype="id564587">
+          <attributes>
+            <point id="position">
+              <real id="x">5894</real>
+              <real id="y">267</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">130</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id285873" prototype="id206770">
+          <attributes>
+            <point id="position">
+              <real id="x">5549</real>
+              <real id="y">164</real>
+            </point>
+            <size id="size">
+              <real id="width">10</real>
+              <real id="height">68</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id399322" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">1191</real>
+              <real id="y">176</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id490310" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">2518</real>
+              <real id="y">261</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id245020" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">2809</real>
+              <real id="y">324</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id194794" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">2890</real>
+              <real id="y">328</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id164327" prototype="id556517">
+          <attributes>
+            <point id="position">
+              <real id="x">3318</real>
+              <real id="y">233</real>
+            </point>
+            <size id="size">
+              <real id="width">42</real>
+              <real id="height">68</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id560846" prototype="id556517">
+          <attributes>
+            <point id="position">
+              <real id="x">961</real>
+              <real id="y">167</real>
+            </point>
+            <size id="size">
+              <real id="width">42</real>
+              <real id="height">68</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">1</real>
+              <real id="blue">1</real>
+              <real id="alpha">1</real>
+            </color>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id670105" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">3491</real>
+              <real id="y">258</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id627171" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">3887</real>
+              <real id="y">156</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id238302" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">4276</real>
+              <real id="y">222</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id469540" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">4909</real>
+              <real id="y">242</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id855442" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">5019</real>
+              <real id="y">247</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id172971" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">5401</real>
+              <real id="y">201</real>
+            </point>
+            <size id="size">
+              <real id="width">38</real>
+              <real id="height">54</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id146220" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">2203</real>
+              <real id="y">181</real>
+            </point>
+            <size id="size">
+              <real id="width">130</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t3</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id240334" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">2117</real>
+              <real id="y">233</real>
+            </point>
+            <size id="size">
+              <real id="width">141</real>
+              <real id="height">294</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t1</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id799048" prototype="id406905">
+          <attributes>
+            <point id="position">
+              <real id="x">5852</real>
+              <real id="y">241</real>
+            </point>
+            <size id="size">
+              <real id="width">200</real>
+              <real id="height">80</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id784032" class="CollideBehavior" enabled="true">
+              <attributes>
+                <text id="name">Collide</text>
+                <text id="bundleName">Collide.behavior</text>
+                <text id="prototypeKey">id784889</text>
+                <text id="actorTag">Ground</text>
+                <index id="mode">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id927786" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id841824" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id577693" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id391305</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="scene.attributes.id787283" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id758625" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id304657</text>
+                    <index id="enableAdvertisement">0</index>
+                    <index id="index">1</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id585092" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id143088</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id910820" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id146467" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id755887" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id391305</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="scene.attributes.id787283" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id184787" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id147545</text>
+                    <index id="enableAdvertisement">0</index>
+                    <index id="index">1</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id914014" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id143088</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id720029" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id247188</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id410366" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+                <behavior id="id123836" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id830765</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id391305" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <boolean id="visible">false</boolean>
+              </attributes>
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+                <real id="density">0</real>
+                <boolean id="movable">false</boolean>
+                <real id="friction">0</real>
+                <real id="restitution">0</real>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id171189" prototype="id556517">
+          <attributes>
+            <point id="position">
+              <real id="x">4616</real>
+              <real id="y">296</real>
+            </point>
+            <size id="size">
+              <real id="width">42</real>
+              <real id="height">68</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id302379" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">3732</real>
+              <real id="y">146</real>
+            </point>
+            <size id="size">
+              <real id="width">130</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t1</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id250563" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">3592</real>
+              <real id="y">227</real>
+            </point>
+            <size id="size">
+              <real id="width">130</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t3</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id758671" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">1071</real>
+              <real id="y">157</real>
+            </point>
+            <size id="size">
+              <real id="width">130</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t1</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id187597" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">160</real>
+              <real id="y">173</real>
+            </point>
+            <size id="size">
+              <real id="width">135</real>
+              <real id="height">214</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t1</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id354359" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">243</real>
+              <real id="y">125</real>
+            </point>
+            <size id="size">
+              <real id="width">130</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t3</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id126836" prototype="id275651">
+          <attributes>
+            <point id="position">
+              <real id="x">1702</real>
+              <real id="y">168</real>
+            </point>
+            <size id="size">
+              <real id="width">130</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">t2</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id137819" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">5330</real>
+              <real id="y">14</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 10</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id272185" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">5096</real>
+              <real id="y">17</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 9</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id946644" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">4856</real>
+              <real id="y">16</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 8</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id342072" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">4621</real>
+              <real id="y">19</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 7</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id523503" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">4384</real>
+              <real id="y">23</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 6</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id697480" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">4152</real>
+              <real id="y">25</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 5</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id920501" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">3105</real>
+              <real id="y">19</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 4</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id843892" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">2868</real>
+              <real id="y">22</real>
+            </point>
+            <size id="size">
+              <real id="width">260</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 3</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id181031" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">2635</real>
+              <real id="y">24</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 2</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id684166" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">2402</real>
+              <real id="y">26</real>
+            </point>
+            <size id="size">
+              <real id="width">243</real>
+              <real id="height">89</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id458676" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">1526</real>
+              <real id="y">26</real>
+            </point>
+            <size id="size">
+              <real id="width">264</real>
+              <real id="height">92</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Spikes Copy 1</text>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id485379" prototype="id704197">
+          <attributes>
+            <point id="position">
+              <real id="x">768</real>
+              <real id="y">33</real>
+            </point>
+            <size id="size">
+              <real id="width">319</real>
+              <real id="height">79</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id667120" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">304</real>
+              <real id="y">34</real>
+            </point>
+            <size id="size">
+              <real id="width">661</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">06</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id368529" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">1147</real>
+              <real id="y">28</real>
+            </point>
+            <size id="size">
+              <real id="width">550</real>
+              <real id="height">118</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 7</text>
+            <image id="image">05</image>
+            <text id="tags" />
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="betterColisions">true</boolean>
+                <boolean id="canSleep">true</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id705706" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">1957</real>
+              <real id="y">26</real>
+            </point>
+            <size id="size">
+              <real id="width">667</real>
+              <real id="height">135</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 10</text>
+            <image id="image">06</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id993865" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">3840</real>
+              <real id="y">2</real>
+            </point>
+            <size id="size">
+              <real id="width">382</real>
+              <real id="height">167</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 19</text>
+            <image id="image">05</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id793227" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">3429</real>
+              <real id="y">85</real>
+            </point>
+            <size id="size">
+              <real id="width">469</real>
+              <real id="height">135</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 16</text>
+            <image id="image">05</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id966646" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">3429</real>
+              <real id="y">-11</real>
+            </point>
+            <size id="size">
+              <real id="width">468</real>
+              <real id="height">135</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 15</text>
+            <image id="image">02</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id231164" prototype="id700840">
+          <attributes>
+            <point id="position">
+              <real id="x">5404</real>
+              <real id="y">32</real>
+            </point>
+            <size id="size">
+              <real id="width">298</real>
+              <real id="height">200</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Platform Copy 24</text>
+            <image id="image">04</image>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id750652" prototype="id167971">
+          <attributes>
+            <point id="position">
+              <real id="x">545</real>
+              <real id="y">129</real>
+            </point>
+            <size id="size">
+              <real id="width">85</real>
+              <real id="height">72</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id672819" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">spawn instruction</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id811403" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id706962</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id434785" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id665373" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">2</index>
+                    <real id="interval">2</real>
+                    <boolean id="runToCompletion">false</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id878562" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id683800</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">
+                          <expression>
+                            <reference keypath="self.attributes.position.x" />
+                          </expression>
+                        </real>
+                        <real id="y">
+                          <expression>
+                            <reference keypath="self.attributes.position.y" />
+                            <string xml:space="preserve"> + 90</string>
+                          </expression>
+                        </real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">1</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id252937" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">scene.attributes.id715308</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="scene.attributes.id715308" />
+                        <string xml:space="preserve"> + 1</string>
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id735624" prototype="id167971">
+          <attributes>
+            <point id="position">
+              <real id="x">1300</real>
+              <real id="y">120</real>
+            </point>
+            <size id="size">
+              <real id="width">85</real>
+              <real id="height">72</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id938533" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">spawn instruction</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id260096" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id706962</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id170476" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id121384" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">2</index>
+                    <real id="interval">2</real>
+                    <boolean id="runToCompletion">false</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id445553" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id586638</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">
+                          <expression>
+                            <reference keypath="self.attributes.position.x" />
+                          </expression>
+                        </real>
+                        <real id="y">
+                          <expression>
+                            <reference keypath="self.attributes.position.y" />
+                            <string xml:space="preserve"> + 90</string>
+                          </expression>
+                        </real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">1</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id223827" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">scene.attributes.id715308</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="scene.attributes.id715308" />
+                        <string xml:space="preserve"> + 1</string>
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id354198" prototype="id347394">
+          <attributes>
+            <point id="position">
+              <real id="x">1938</real>
+              <real id="y">185</real>
+            </point>
+            <size id="size">
+              <real id="width">65</real>
+              <real id="height">60</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <real id="id564755" name="StartX">1938</real>
+            <real id="id783988" name="EndX">2200</real>
+            <image id="image">Level_2_enemy_1.1</image>
+            <integer id="id951793" name="Speed">100</integer>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id640644" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Kill me</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id101733" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id693125</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id827526" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">2</index>
+                    <real id="interval">1</real>
+                    <boolean id="runToCompletion">false</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id461664" class="SpawnAction" enabled="true">
+                      <attributes>
+                        <text id="name">Spawn Actor</text>
+                        <text id="bundleName">Spawn.behavior</text>
+                        <text id="prototypeKey">id706818</text>
+                        <angle id="direction">0</angle>
+                        <index id="directionSpace">1</index>
+                        <real id="x">
+                          <expression>
+                            <reference keypath="self.attributes.position.x" />
+                          </expression>
+                        </real>
+                        <real id="y">
+                          <expression>
+                            <reference keypath="self.attributes.position.y" />
+                          </expression>
+                        </real>
+                        <index id="positionSpace">1</index>
+                        <index id="layerOrder">0</index>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id126413" class="DestroyAction" enabled="true">
+                  <attributes>
+                    <text id="name">Destroy</text>
+                    <text id="bundleName">Destroy.behavior</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id679391" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id693125</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id334623" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id591961</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.attributes.id169275" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id102587" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Calculate Enemy Top</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">game.attributes.id169275</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="self.attributes.position.y" />
+                    <string xml:space="preserve"> + (</string>
+                    <reference keypath="self.attributes.size.height" />
+                    <string xml:space="preserve">/2)</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id296925" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Detect Y</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">scene.attributes.id482010</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="self.attributes.position.y" />
+                    <string xml:space="preserve"> + </string>
+                    <string xml:space="preserve">60</string>
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id507505" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Detect X</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">scene.attributes.id701257</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="self.attributes.position.x" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id501177" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="self.attributes.id951793" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id271499" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Enemy Move</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">1</real>
+              </attributes>
+              <conditions>
+                <condition id="id844188" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.position.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="self.attributes.id783988" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id484267" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.position.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&lt;</text>
+                      <real id="RHS">
+                        <expression>
+                          <reference keypath="self.attributes.id564755" />
+                        </expression>
+                      </real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id918333" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="RHS">
+                      <expression>
+                        <string xml:space="preserve">-(</string>
+                        <reference keypath="self.aspects.motion.attributes.linearVelocity.x" />
+                        <string xml:space="preserve">)</string>
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id930527" class="AnimateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Animate</text>
+                <text id="bundleName">Animate.behavior</text>
+                <text id="images">Level_2_enemy_1.1	Level_2_enemy_1.2</text>
+                <index id="speed">4</index>
+                <boolean id="loop">true</boolean>
+                <boolean id="restoreActorImage">true</boolean>
+                <text id="currentFrameAttribute" />
+              </attributes>
+            </behavior>
+            <behavior id="id216095" class="AccelerateBehavior" enabled="true">
+              <attributes>
+                <text id="name">Gravity</text>
+                <text id="bundleName">Accelerate.behavior</text>
+                <angle id="direction">270</angle>
+                <index id="space">1</index>
+                <real id="acceleration">1000</real>
+              </attributes>
+            </behavior>
+            <behavior id="id510649" class="CollideBehavior" enabled="true">
+              <attributes>
+                <text id="name">Collide</text>
+                <text id="bundleName">Collide.behavior</text>
+                <text id="prototypeKey">id700840</text>
+                <text id="actorTag">Ground</text>
+                <index id="mode">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id294671" class="RuleBehavior" enabled="false">
+              <attributes>
+                <text id="name">Enemy Flip horizontal</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id802280" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.aspects.motion.attributes.linearVelocity.x</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">&gt;</text>
+                      <real id="RHS">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id950737" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id744765" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.aspects.graphics.attributes.flipHorizontally</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+            <behavior id="id749389" class="CollideBehavior" enabled="true">
+              <attributes>
+                <text id="name">Collide</text>
+                <text id="bundleName">Collide.behavior</text>
+                <text id="prototypeKey">id784889</text>
+                <text id="actorTag">Ground</text>
+                <index id="mode">0</index>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <enumeration id="collisionShape">1</enumeration>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id876821" prototype="id610722">
+          <attributes>
+            <point id="position">
+              <real id="x">1940</real>
+              <real id="y">219</real>
+            </point>
+            <size id="size">
+              <real id="width">56</real>
+              <real id="height">15</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id165757" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Set X</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.position.x</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="scene.attributes.id701257" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id576747" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Set Y</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.position.y</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="scene.attributes.id482010" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id151353" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Kill Enemy</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id824753" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id539760" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id693125</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id318019" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id552193</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id554763" class="ChangeAttributeAction" enabled="true">
+              <attributes>
+                <text id="name">Change Attribute</text>
+                <text id="bundleName">ChangeAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.color.alpha</text>
+                <text id="RHS">0</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <real id="density">0</real>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id572055" prototype="id784889">
+          <attributes>
+            <point id="position">
+              <real id="x">65</real>
+              <real id="y">387</real>
+            </point>
+            <size id="size">
+              <real id="width">75</real>
+              <real id="height">88</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+            <boolean id="id657270" name="Turn_right">false</boolean>
+            <boolean id="id583529" name="Jump">false</boolean>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <enumeration id="collisionShape">0</enumeration>
+                <boolean id="betterColisions">true</boolean>
+                <boolean id="canSleep">true</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Scrollable Layer</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+    <layer id="id143715">
+      <actors>
+        <actor id="id609817" prototype="id924573">
+          <attributes>
+            <point id="position">
+              <real id="x">415</real>
+              <real id="y">332</real>
+            </point>
+            <size id="size">
+              <real id="width">32</real>
+              <real id="height">44</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id822686" class="RuleBehavior" enabled="false">
+              <attributes>
+                <text id="name">collect nuts</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id159195" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id332098" class="DestroyAction" enabled="true">
+                  <attributes>
+                    <text id="name">Destroy</text>
+                    <text id="bundleName">Destroy.behavior</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id504941" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id410366</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id410366" />
+                        <string xml:space="preserve"> + 1</string>
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="movable">false</boolean>
+                <real id="restitution">0</real>
+                <real id="density">0</real>
+                <real id="friction">0</real>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id368458" prototype="id716315">
+          <attributes>
+            <point id="position">
+              <real id="x">468</real>
+              <real id="y">328</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id170091" prototype="id556517">
+          <attributes>
+            <point id="position">
+              <real id="x">530</real>
+              <real id="y">332</real>
+            </point>
+            <size id="size">
+              <real id="width">31</real>
+              <real id="height">39</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id658077" class="RuleBehavior" enabled="false">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id644727" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id784889</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id138392" class="DestroyAction" enabled="true">
+                  <attributes>
+                    <text id="name">Destroy</text>
+                    <text id="bundleName">Destroy.behavior</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id355372" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id391305</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id391305" />
+                        <string xml:space="preserve"> + 1</string>
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id193097" prototype="id533637">
+          <attributes>
+            <point id="position">
+              <real id="x">587</real>
+              <real id="y">329</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id544773" prototype="id601101">
+          <attributes>
+            <point id="position">
+              <real id="x">62</real>
+              <real id="y">439</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">42</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="name">ScreenShakeActor</text>
+            <text id="tags" />
+          </attributes>
+          <behaviors>
+            <behavior id="id323366" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Camera Shake</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id273854" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id552193</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id298167" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.id184471</text>
+                    <text id="RHS">2</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id372661" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">0</index>
+                    <real id="interval">0.01</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id800284" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">self.attributes.id184471</text>
+                        <text id="RHS">
+                          <expression>
+                            <string xml:space="preserve">-1</string>
+                            <string xml:space="preserve">*</string>
+                            <reference keypath="self.attributes.id184471" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                    <behavior id="id924369" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">scene.attributes.camera.origin.y</text>
+                        <text id="RHS">
+                          <expression>
+                            <reference keypath="scene.attributes.camera.origin.y" />
+                            <string xml:space="preserve">+ </string>
+                            <reference keypath="self.attributes.id184471" />
+                          </expression>
+                        </text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+                <behavior id="id597973" class="TimerBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Timer</text>
+                    <text id="bundleName">Timer.behavior</text>
+                    <index id="timerType">1</index>
+                    <real id="interval">1</real>
+                    <boolean id="runToCompletion">true</boolean>
+                  </attributes>
+                  <behaviors>
+                    <behavior id="id708539" class="ChangeAttributeAction" enabled="true">
+                      <attributes>
+                        <text id="name">Change Attribute</text>
+                        <text id="bundleName">ChangeAttribute.behavior</text>
+                        <text id="targetAttribute">game.attributes.id552193</text>
+                        <text id="RHS">false</text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id344690" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id428640" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id552193</text>
+                    <text id="name">default name</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id483073" class="ConstrainAttributeBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Constrain Attribute</text>
+                    <text id="bundleName">ConstrainAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.position.x</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="self.attributes.position.x" />
+                        <string xml:space="preserve"> + 10</string>
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id552206" class="ConstrainAttributeBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Constrain Attribute</text>
+                    <text id="bundleName">ConstrainAttribute.behavior</text>
+                    <text id="targetAttribute">self.attributes.position.x</text>
+                    <text id="RHS">
+                      <expression>
+                        <reference keypath="game.attributes.id779108" />
+                      </expression>
+                    </text>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <boolean id="visible">false</boolean>
+              </attributes>
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id673141" prototype="id206770">
+          <attributes>
+            <point id="position">
+              <real id="x">3</real>
+              <real id="y">231</real>
+            </point>
+            <size id="size">
+              <real id="width">10</real>
+              <real id="height">275</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id101743" prototype="id206770">
+          <attributes>
+            <point id="position">
+              <real id="x">3663</real>
+              <real id="y">105</real>
+            </point>
+            <size id="size">
+              <real id="width">10</real>
+              <real id="height">87</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <text id="tags" />
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">NonScrollable</text>
+        <boolean id="scrollable">false</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Level 1- Revamped</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">6000</real>
+      <real id="height">700</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">67</real>
+      </point>
+      <size id="size">
+        <real id="width">667</real>
+        <real id="height">375</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">0</real>
+        <real id="height">0</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+    <real id="id701257" name="Enemy1_positionX">0</real>
+    <real id="id482010" name="Enemy1_positionY">0</real>
+    <integer id="id787283" name="Level_up_collectible">3</integer>
+    <integer id="id715308" name="Instruct_count">0</integer>
+  </attributes>
+</scene>

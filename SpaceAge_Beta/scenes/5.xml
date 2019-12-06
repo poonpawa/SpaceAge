@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id304657">
+  <layers>
+    <layer id="id399997">
+      <actors>
+        <actor id="id173939" prototype="id201447">
+          <attributes>
+            <point id="position">
+              <real id="x">333</real>
+              <real id="y">189</real>
+            </point>
+            <size id="size">
+              <real id="width">667</real>
+              <real id="height">375</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">Score-board</image>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Layer 1</text>
+        <boolean id="scrollable">false</boolean>
+      </attributes>
+    </layer>
+    <layer id="id325719">
+      <actors>
+        <actor id="id363642" prototype="id775256">
+          <attributes>
+            <point id="position">
+              <real id="x">483</real>
+              <real id="y">83</real>
+            </point>
+            <size id="size">
+              <real id="width">135</real>
+              <real id="height">128</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">Space_Age_-_replay</image>
+          </attributes>
+          <behaviors>
+            <behavior id="id355692" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id116293" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id912930" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id944384</text>
+                    <index id="enableAdvertisement">0</index>
+                    <index id="index">1</index>
+                  </attributes>
+                </behavior>
+                <behavior id="id282074" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id391305</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id863262" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id410366</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id144244" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id143088</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id830942" prototype="id527184">
+          <attributes>
+            <point id="position">
+              <real id="x">335</real>
+              <real id="y">131</real>
+            </point>
+            <size id="size">
+              <real id="width">71</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id679630" prototype="id716315">
+          <attributes>
+            <point id="position">
+              <real id="x">320</real>
+              <real id="y">170</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id127284" prototype="id533637">
+          <attributes>
+            <point id="position">
+              <real id="x">400</real>
+              <real id="y">170</real>
+            </point>
+            <size id="size">
+              <real id="width">50</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id709240" prototype="id840255">
+          <attributes>
+            <point id="position">
+              <real id="x">186</real>
+              <real id="y">84</real>
+            </point>
+            <size id="size">
+              <real id="width">135</real>
+              <real id="height">128</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Death Screen</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">667</real>
+      <real id="height">375</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">667</real>
+        <real id="height">375</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">587</real>
+        <real id="height">315</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
